@@ -16,7 +16,7 @@ jobs:
       - name: Set up SSH
         uses: webfactory/ssh-agent@v0.5.3
         with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}  # Agrega tu clave privada SSH en los secretos de GitHub
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}  # Se usa la clave privada desde los secretos de GitHub
 
       - name: Run deploy script
         run: |
