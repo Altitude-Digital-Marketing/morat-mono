@@ -15,7 +15,7 @@ jobs:
 
       # Usar la acción 'Add SSH Key' para configurar la clave privada
       - name: Add SSH key to the agent
-        uses: github-action/ssh-key@v1
+        uses: webfactory/ssh-agent@v0.5.3  # Esta es la acción correcta para añadir la clave SSH al agente
         with:
           ssh-private-key: ${{ secrets.ALTITUDE }}  # Usa el secreto correcto
 
