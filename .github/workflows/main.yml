@@ -13,11 +13,21 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      # Configuración de SSH usando la clave privada desde los secretos de GitHub
       - name: Set up SSH
         uses: webfactory/ssh-agent@v0.5.3
         with:
-          ssh-private-key: ${{ secrets.ALTITUDE }}  # Asegúrate de usar el nombre correcto del secreto
+          ssh-private-key: ${{ secrets.ALTITUDE }}  # Se debe usar el nombre correcto de tu secreto en GitHub
 
+      # Agrega paso para depurar si la clave SSH se está cargando correctamente
+      - name: Debug SSH Key
+        run: |
+          echo "$SSH_PRIVATE_KEY" > private_key.pem
+          cat private_key.pem
+          chmod 600 private_key.pem
+          ssh-add private_key.pem
+
+      # Ejecutar el script de despliegue
       - name: Run deploy script
         run: |
           chmod +x ./deploy.sh  # Asegúrate de que el script tenga permisos de ejecución
