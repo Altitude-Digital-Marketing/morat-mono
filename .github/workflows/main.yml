@@ -16,18 +16,26 @@ jobs:
       run: |
         # Crear directorio .ssh si no existe
         mkdir -p ~/.ssh
-
-        # Asegurarse de que la clave privada esté bien configurada
+        
+        # Verificar que la clave privada está cargada correctamente
+        echo "Verificando si la clave SSH está configurada"
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-        # Mostrar la longitud de la clave privada para depuración
-        echo "La longitud de la clave privada es: $(wc -c < ~/.ssh/id_rsa)"
+        echo "La longitud de la clave SSH es: $(wc -c < ~/.ssh/id_rsa)"
+
+        # Mostrar los primeros 30 caracteres de la clave para ver que está cargada
+        echo "Primeros 30 caracteres de la clave privada: $(head -c 30 ~/.ssh/id_rsa)"
         
         # Establecer los permisos correctos para la clave privada
         chmod 600 ~/.ssh/id_rsa
-
-        # Agregar GitHub y DigitalOcean a known_hosts para evitar problemas de verificación de host
+        
+        # Verificar la configuración de la clave con ssh-keyscan
         ssh-keyscan -H github.com >> ~/.ssh/known_hosts
         ssh-keyscan -H ${{ secrets.HOST }} >> ~/.ssh/known_hosts || echo "Error al obtener la clave del host DigitalOcean"
+        
+    - name: Test SSH connection
+      run: |
+        echo "Probando la conexión SSH con la clave"
+        ssh -v -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ${{ secrets.user }}@${{ secrets.HOST }} "echo Conexión exitosa"
 
     - name: Deploy to DigitalOcean
       env:
