@@ -21,6 +21,7 @@ jobs:
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/altitude-ssh  # Guarda la clave privada en el archivo correcto
         chmod 600 ~/.ssh/altitude-ssh  # Asegura permisos adecuados para la clave
         ssh-keyscan -H 159.223.134.151 >> ~/.ssh/known_hosts  # Agrega el host al archivo known_hosts
+        cat ~/.ssh/altitude-ssh  # Verifica que la clave privada esté correcta (solo para depuración)
       env:
         SSH_PRIVATE_KEY: ${{ secrets.altitude-ssh }}  # Asegúrate de que el secreto esté configurado correctamente en GitHub Secrets
 
