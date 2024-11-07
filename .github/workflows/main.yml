@@ -7,7 +7,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
     - name: Add SSH key to agent
       env:
@@ -17,11 +18,10 @@ jobs:
         mkdir -p ~/.ssh
         # Guardar la clave privada
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+        # Verificar el contenido de la clave privada para asegurarse de que se ha cargado correctamente
+        cat ~/.ssh/id_rsa
         # Dar permisos adecuados a la clave privada
         chmod 600 ~/.ssh/id_rsa
-
-        # Asegurarse de que la clave privada se ha guardado correctamente
-        cat ~/.ssh/id_rsa
 
         # Agregar hosts conocidos (GitHub y DigitalOcean)
         ssh-keyscan -H github.com >> ~/.ssh/known_hosts
