@@ -1,25 +1,29 @@
-name: Deploy to DigitalOcean
+name: CI/CD
 
 on:
   push:
-    branches:
-      - main  # Ejecutar cuando haya un push a la rama principal
+    branches: [ main ]
 
 jobs:
+
   deploy:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      # Usar la acción 'Add SSH Key' para configurar la clave privada
-      - name: Add SSH key to the agent
-        uses: webfactory/ssh-agent@v0.5.3  # Esta es la acción correcta para añadir la clave SSH al agente
-        with:
-          ssh-private-key: ${{ secrets.ALTITUDE }}  # Usa el secreto correcto
-
-      - name: Run deploy script
-        run: |
-          chmod +x ./deploy.sh  # Asegúrate de que el script tenga permisos de ejecución
-          ./deploy.sh  # Ejecuta el script de despliegue
+    - uses: actions/checkout@v2
+    
+    - name: Add SSH key to agent
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.altitude_ssh }}
+      run: |
+        mkdir -p ~/.ssh
+        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+        
+    - name: Deploy to Digital Ocean
+      env:
+        HOST: ${{ secrets.HOST }}
+        USER: ${{ secrets.user }}
+      run: |
+        ssh $user@$HOST "cd /var/www/html && git pull origin main"
