@@ -1,6 +1,6 @@
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   deploy:
@@ -16,15 +16,14 @@ jobs:
         mkdir -p ~/.ssh
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
-        # Verificar la clave de GitHub
+        
+        # Depuración para verificar el valor de HOST
+        echo "Verificando la variable HOST: $HOST"
+        
+        # Verificar la clave SSH de GitHub
         ssh-keyscan -H github.com >> ~/.ssh/known_hosts
-        # Verificar la clave del servidor de DigitalOcean
-        ssh-keyscan -H $HOST >> ~/.ssh/known_hosts
-
-    # Paso de depuración para verificar el valor de HOST
-    - name: Debug HOST value
-      run: |
-        echo "HOST value is: $HOST"
+        # Verificar la clave SSH del servidor DigitalOcean
+        ssh-keyscan -H $HOST >> ~/.ssh/known_hosts || echo "Error al obtener la clave del host"
 
     - name: Deploy to Digital Ocean
       env:
