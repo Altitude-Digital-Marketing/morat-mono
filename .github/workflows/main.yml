@@ -16,7 +16,10 @@ jobs:
         mkdir -p ~/.ssh
         echo "$altitude-ssh" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
+        # Agregar la clave de GitHub a known_hosts
         ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+        # Agregar la clave del servidor de DigitalOcean a known_hosts
+        ssh-keyscan -H $HOST >> ~/.ssh/known_hosts
 
     - name: Deploy to Digital Ocean
       env:
