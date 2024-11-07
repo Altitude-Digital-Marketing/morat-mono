@@ -14,24 +14,23 @@ jobs:
       env:
         SSH_PRIVATE_KEY: ${{ secrets.altitude-ssh }}
       run: |
-        # Crear directorio .ssh si no existe
         mkdir -p ~/.ssh
-        
-        # Verificar que la clave privada está cargada correctamente
-        echo "Verificando si la clave SSH está configurada"
+
+        # Verificar la longitud de la clave y mostrar los primeros 30 caracteres
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
         echo "La longitud de la clave SSH es: $(wc -c < ~/.ssh/id_rsa)"
+        echo "Primeros 30 caracteres de la clave SSH: $(head -c 30 ~/.ssh/id_rsa)"
 
-        # Mostrar los primeros 30 caracteres de la clave para ver que está cargada
-        echo "Primeros 30 caracteres de la clave privada: $(head -c 30 ~/.ssh/id_rsa)"
-        
-        # Establecer los permisos correctos para la clave privada
+        # Verifica si la clave fue escrita correctamente
+        cat ~/.ssh/id_rsa
+
+        # Cambiar permisos de la clave
         chmod 600 ~/.ssh/id_rsa
-        
-        # Verificar la configuración de la clave con ssh-keyscan
-        ssh-keyscan -H github.com >> ~/.ssh/known_hosts
-        ssh-keyscan -H ${{ secrets.HOST }} >> ~/.ssh/known_hosts || echo "Error al obtener la clave del host DigitalOcean"
-        
+
+        # Verificar si la clave SSH se carga correctamente
+        ssh-keyscan github.com >> ~/.ssh/known_hosts
+        ssh-keyscan ${{ secrets.HOST }} >> ~/.ssh/known_hosts || echo "Error al obtener la clave del host DigitalOcean"
+
     - name: Test SSH connection
       run: |
         echo "Probando la conexión SSH con la clave"
