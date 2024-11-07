@@ -20,6 +20,9 @@ jobs:
         # Dar permisos adecuados a la clave privada
         chmod 600 ~/.ssh/id_rsa
 
+        # Asegurarse de que la clave privada se ha guardado correctamente
+        cat ~/.ssh/id_rsa
+
         # Agregar hosts conocidos (GitHub y DigitalOcean)
         ssh-keyscan -H github.com >> ~/.ssh/known_hosts
         ssh-keyscan -H ${{ secrets.HOST }} >> ~/.ssh/known_hosts || echo "Error al obtener la clave del host DigitalOcean"
@@ -30,4 +33,4 @@ jobs:
         USER: ${{ secrets.user }}
       run: |
         # Desactivar verificación de host para evitar errores de SSH
-        ssh -o StrictHostKeyChecking=no $USER@$HOST "cd /var/www/html && git pull origin main"
+        ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa $USER@$HOST "cd /var/www/html && git pull origin main"
