@@ -16,14 +16,12 @@ jobs:
       run: |
         # Crear directorio .ssh si no existe
         mkdir -p ~/.ssh
+
         # Verificar si la clave privada está definida correctamente
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+        
         # Verificar la longitud de la clave privada para asegurarse de que se ha cargado correctamente
         echo "La longitud de la clave privada es: $(wc -c < ~/.ssh/id_rsa)"
-        
-        # Verificar el contenido de la clave privada (solo para depuración)
-        # ADVERTENCIA: no hagas esto en producción, ya que puede mostrar la clave privada en los logs.
-        cat ~/.ssh/id_rsa || echo "Error: No se pudo mostrar el contenido de la clave privada"
         
         # Dar permisos adecuados a la clave privada
         chmod 600 ~/.ssh/id_rsa
@@ -39,3 +37,6 @@ jobs:
       run: |
         # Desactivar verificación de host para evitar errores de SSH
         ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa $USER@$HOST "cd /var/www/html && git pull origin main"
+        
+        # Reiniciar servicio si es necesario (por ejemplo, nginx o apache2)
+        # ssh -i ~/.ssh/id_rsa $USER@$HOST "sudo systemctl restart nginx"
