@@ -1,51 +1,21 @@
-name: Deploy to DigitalOcean
-
-on:
-  push:
-    branches:
-      - main
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    
     steps:
-    # Paso 1: Checkout del repositorio
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      # Paso 1: Checkout del repositorio
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    # Paso 2: Configuración de la clave SSH
-    - name: Set up SSH key
-      run: |
-        # Crea el directorio .ssh si no existe
-        mkdir -p ~/.ssh
+      # Paso 2: Configurar clave SSH
+      - name: Set up SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/altitude-ssh  # Guarda la clave privada en el archivo correcto
+          chmod 600 ~/.ssh/altitude-ssh  # Asegurarse de que la clave privada tenga permisos 600
+          ssh-keyscan -H 159.223.134.151 >> ~/.ssh/known_hosts  # Agregar el host al archivo known_hosts
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.altitude-ssh }}  # Asegúrate de que el secreto esté configurado correctamente en GitHub Secrets
 
-        # Verifica si la clave privada está cargada correctamente
-        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-
-        # Verifica la longitud de la clave privada para asegurarse de que se ha cargado correctamente
-        echo "La longitud de la clave privada es: $(wc -c < ~/.ssh/id_rsa)"
-
-        # Asigna los permisos correctos
-        chmod 600 ~/.ssh/id_rsa
-
-        # Asegúrate de que el archivo known_hosts esté configurado correctamente
-        ssh-keyscan -H 159.223.134.151 >> ~/.ssh/known_hosts
-
-      env:
-        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-
-    # Paso 3: Verificación de la conexión SSH
-    - name: Test SSH connection
-      run: |
-        ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no altitude@159.223.134.151 "echo Conexión exitosa"
-      
-    # Paso 4: Verificar que el usuario correcto está siendo utilizado en el servidor
-    - name: Verify user on server
-      run: |
-        ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no altitude@159.223.134.151 "whoami"
-      
-    # Paso 5: Desplegar la aplicación en el servidor
-    - name: Deploy application
-      run: |
-        ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no altitude@159.223.134.151 "cd /ruta/del/proyecto && git pull && ./deploy.sh"
+      # Paso 3: Probar la conexión SSH
+      - name: Test SSH connection
+        run: ssh -i ~/.ssh/altitude-ssh -o StrictHostKeyChecking=no altitude@159.223.134.151 "echo Conexión exitosa"
