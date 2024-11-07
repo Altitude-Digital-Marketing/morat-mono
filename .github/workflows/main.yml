@@ -1,45 +1,40 @@
+name: Deploy to DigitalOcean
+
 on:
   push:
-    branches: [main]
+    branches:
+      - main  # Cambia esto si usas otra rama
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
+    
     steps:
+    # Paso 1: Checkout del repositorio
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Add SSH key to agent
-      env:
-        SSH_PRIVATE_KEY: ${{ secrets.altitude-ssh }}
+    # Paso 2: Configuración de la clave SSH
+    - name: Set up SSH key
       run: |
         mkdir -p ~/.ssh
-
-        # Verificar la longitud de la clave y mostrar los primeros 30 caracteres
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-        echo "La longitud de la clave SSH es: $(wc -c < ~/.ssh/id_rsa)"
-        echo "Primeros 30 caracteres de la clave SSH: $(head -c 30 ~/.ssh/id_rsa)"
-
-        # Verifica si la clave fue escrita correctamente
-        cat ~/.ssh/id_rsa
-
-        # Cambiar permisos de la clave
         chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan -H 159.223.134.151 >> ~/.ssh/known_hosts
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
 
-        # Verificar si la clave SSH se carga correctamente
-        ssh-keyscan github.com >> ~/.ssh/known_hosts
-        ssh-keyscan ${{ secrets.HOST }} >> ~/.ssh/known_hosts || echo "Error al obtener la clave del host DigitalOcean"
-
+    # Paso 3: Verificación de la conexión SSH
     - name: Test SSH connection
       run: |
-        echo "Probando la conexión SSH con la clave"
-        ssh -v -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ${{ secrets.user }}@${{ secrets.HOST }} "echo Conexión exitosa"
-
-    - name: Deploy to DigitalOcean
-      env:
-        HOST: ${{ secrets.HOST }}
-        USER: ${{ secrets.user }}
+        ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no altitude@159.223.134.151 "echo Conexión exitosa"
+      
+    # Paso 4: Verificar que el usuario correcto está siendo utilizado en el servidor
+    - name: Verify user on server
       run: |
-        # Desactivar verificación de host para evitar errores de SSH
-        ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa $USER@$HOST "cd /var/www/html && git pull origin main"
+        ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no altitude@159.223.134.151 "whoami"
+      
+    # Paso 5: Desplegar o ejecutar el código que necesites en el servidor (esto depende de tu aplicación)
+    - name: Deploy application
+      run: |
+        ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no altitude@159.223.134.151 "cd /ruta/del/proyecto && git pull && ./deploy.sh"
