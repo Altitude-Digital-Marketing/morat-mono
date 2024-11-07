@@ -1,33 +1,23 @@
-name: CI/CD
+name: Deploy to DigitalOcean
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main  # Ajusta esto si estás trabajando con una rama diferente
 
 jobs:
-
   deploy:
-    runs-on: ubuntu-latest
-    
+    runs-on: ubuntu-latest  # Usa un runner de GitHub con Ubuntu
+
     steps:
-    - uses: actions/checkout@v2
-    
-    - name: Add SSH key to agent
-      env:
-        SSH_PRIVATE_KEY: ${{ secrets.altitude_ssh }}
-      run: |
-        mkdir -p ~/.ssh
-        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
-        ssh-keyscan -H github.com >> ~/.ssh/known_hosts
-        
-    - name: Add Digital Ocean host key
-      run: |
-        ssh-keyscan -H ${{ secrets.HOST }} >> ~/.ssh/known_hosts
-        
-    - name: Deploy to Digital Ocean
-      env:
-        HOST: ${{ secrets.HOST }}
-        USER: ${{ secrets.user }}
-      run: |
-        ssh -o StrictHostKeyChecking=no $USER@$HOST "cd /var/www/html && git pull origin main"
+      # Paso 1: Configurar SSH
+      - name: Set up SSH key
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+          ssh-private-key: ${{ secrets.altitude-ssh }}  # Usar la clave privada configurada en Secrets
+
+      # Paso 2: Conectar al servidor y ejecutar el deploy
+      - name: Deploy to DigitalOcean
+        run: |
+          ssh -o StrictHostKeyChecking=no $USER@$HOST "cd /var/www/html && git pull origin main"  # Cambia la ruta y rama si es necesario
+
