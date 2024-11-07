@@ -17,16 +17,15 @@ jobs:
         # Crear directorio .ssh si no existe
         mkdir -p ~/.ssh
 
-        # Verificar si la clave privada está definida correctamente
+        # Asegurarse de que la clave privada esté bien configurada
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-        
-        # Verificar la longitud de la clave privada para asegurarse de que se ha cargado correctamente
+        # Mostrar la longitud de la clave privada para depuración
         echo "La longitud de la clave privada es: $(wc -c < ~/.ssh/id_rsa)"
         
-        # Dar permisos adecuados a la clave privada
+        # Establecer los permisos correctos para la clave privada
         chmod 600 ~/.ssh/id_rsa
 
-        # Agregar hosts conocidos (GitHub y DigitalOcean)
+        # Agregar GitHub y DigitalOcean a known_hosts para evitar problemas de verificación de host
         ssh-keyscan -H github.com >> ~/.ssh/known_hosts
         ssh-keyscan -H ${{ secrets.HOST }} >> ~/.ssh/known_hosts || echo "Error al obtener la clave del host DigitalOcean"
 
@@ -37,6 +36,3 @@ jobs:
       run: |
         # Desactivar verificación de host para evitar errores de SSH
         ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa $USER@$HOST "cd /var/www/html && git pull origin main"
-        
-        # Reiniciar servicio si es necesario (por ejemplo, nginx o apache2)
-        # ssh -i ~/.ssh/id_rsa $USER@$HOST "sudo systemctl restart nginx"
