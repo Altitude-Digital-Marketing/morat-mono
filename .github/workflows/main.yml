@@ -14,12 +14,17 @@ jobs:
         SSH_PRIVATE_KEY: ${{ secrets.altitude-ssh }}
       run: |
         mkdir -p ~/.ssh
-        echo "$altitude-ssh" > ~/.ssh/id_rsa
+        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
-        # Agregar la clave de GitHub a known_hosts
+        # Verificar la clave de GitHub
         ssh-keyscan -H github.com >> ~/.ssh/known_hosts
-        # Agregar la clave del servidor de DigitalOcean a known_hosts
+        # Verificar la clave del servidor de DigitalOcean
         ssh-keyscan -H $HOST >> ~/.ssh/known_hosts
+
+    # Paso de depuración para verificar el valor de HOST
+    - name: Debug HOST value
+      run: |
+        echo "HOST value is: $HOST"
 
     - name: Deploy to Digital Ocean
       env:
