@@ -19,5 +19,4 @@ jobs:
       # Paso 2: Conectar al servidor y ejecutar el deploy
       - name: Deploy to DigitalOcean
         run: |
-          ssh -o StrictHostKeyChecking=no $USER@$HOST "cd /var/www/html && git pull origin main"  # Cambia la ruta y rama si es necesario
-
+          ssh -o StrictHostKeyChecking=no ${{ secrets.user }}@${{ secrets.HOST }} "cd /var/www/html && git pull origin main"  # Cambia la ruta y rama si es necesario
