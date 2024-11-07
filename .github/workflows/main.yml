@@ -11,7 +11,7 @@ jobs:
 
     steps:
       # Paso 1: Configurar SSH
-      - name: Set up SSH key
+      - name: Debug - Check SSH Key
         uses: webfactory/ssh-agent@v0.5.3
         with:
           ssh-private-key: ${{ secrets.altitude-ssh }}  # Usar la clave privada configurada en Secrets
