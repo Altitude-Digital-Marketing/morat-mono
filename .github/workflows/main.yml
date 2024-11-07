@@ -1,21 +1,30 @@
+name: Deploy to DigitalOcean
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
-      # Paso 1: Checkout del repositorio
-      - name: Checkout repository
-        uses: actions/checkout@v2
+    # Paso 1: Checkout del repositorio
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-      # Paso 2: Configurar clave SSH
-      - name: Set up SSH key
-        run: |
-          mkdir -p ~/.ssh
-          echo "$SSH_PRIVATE_KEY" > ~/.ssh/altitude-ssh  # Guarda la clave privada en el archivo correcto
-          chmod 600 ~/.ssh/altitude-ssh  # Asegurarse de que la clave privada tenga permisos 600
-          ssh-keyscan -H 159.223.134.151 >> ~/.ssh/known_hosts  # Agregar el host al archivo known_hosts
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.altitude-ssh }}  # Asegúrate de que el secreto esté configurado correctamente en GitHub Secrets
+    # Paso 2: Configurar clave SSH
+    - name: Set up SSH key
+      run: |
+        mkdir -p ~/.ssh
+        echo "$SSH_PRIVATE_KEY" > ~/.ssh/altitude-ssh  # Guarda la clave privada en el archivo correcto
+        chmod 600 ~/.ssh/altitude-ssh  # Asegura permisos adecuados para la clave
+        ssh-keyscan -H 159.223.134.151 >> ~/.ssh/known_hosts  # Agrega el host al archivo known_hosts
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.altitude-ssh }}  # Asegúrate de que el secreto esté configurado correctamente en GitHub Secrets
 
-      # Paso 3: Probar la conexión SSH
-      - name: Test SSH connection
-        run: ssh -i ~/.ssh/altitude-ssh -o StrictHostKeyChecking=no altitude@159.223.134.151 "echo Conexión exitosa"
+    # Paso 3: Probar la conexión SSH
+    - name: Test SSH connection
+      run: |
+        ssh -i ~/.ssh/altitude-ssh -o StrictHostKeyChecking=no altitude@159.223.134.151 "echo Conexión exitosa"
