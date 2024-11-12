@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="index, follow">
-    <meta name="author" content="Pedro Zuber">
+    <meta name="author" content="Pedro Meireis">
     <meta name="email" content="hello@meireis.com">
     <meta name="copyright" content="<?= $site->copyright() ?>">
     <meta property="og:type" content="website">
