@@ -23,7 +23,4 @@ jobs:
       # Realizar el deploy a DigitalOcean
       - name: Deploy to DigitalOcean
         run: |
-          ssh -o StrictHostKeyChecking=no ${DIGITALOCEAN_USERNAME}@${DIGITALOCEAN_IP} 'cd /path/to/your/project && git pull origin main && npm install && npm run build'
-        env:
-          DIGITALOCEAN_USER: ${{ secrets.DIGITALOCEAN_USERNAME }}
-          DIGITALOCEAN_IP: ${{ secrets.DIGITALOCEAN_IP }}
+          ssh -o StrictHostKeyChecking=no ${{ secrets.DIGITALOCEAN_USERNAME }}@${{ secrets.DIGITALOCEAN_IP }} 'cd /path/to/your/project && git pull origin main && npm install && npm run build'
