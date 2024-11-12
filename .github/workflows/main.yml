@@ -1,24 +1,29 @@
-name: Deploy to Digital Ocean
+name: Deploy to DigitalOcean
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main  # Se puede cambiar la rama si no es main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
 
-      - name: Deploy to Digital Ocean
-        uses: appleboy/ssh-action@master
+    steps:
+      # Checkout del código fuente
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Configurar la clave SSH para la conexión
+      - name: Set up SSH key
+        uses: webfactory/ssh-agent@v0.5.3
         with:
-          host: ${{ secrets.DIGITALOCEAN_IP }}
-          username: ${{ secrets.DIGITALOCEAN_USERNAME }}
-          key: ${{ secrets.DIGITALOCEAN_SSH_KEY }}  # Asegúrate de usar la clave privada aquí
-          script: |
-            cd /var/www/tuproyecto  # ajusta la ruta
-            git pull origin main
-            npm install
-            npm run build
-            pm2 restart tuapp  # ajusta el nombre de tu app
+          ssh-private-key: ${{ secrets.DIGITALOCEAN_SSH_KEY }}
+
+      # Realizar el deploy a DigitalOcean
+      - name: Deploy to DigitalOcean
+        run: |
+          ssh -o StrictHostKeyChecking=no ${DIGITALOCEAN_USER}@${DIGITALOCEAN_IP} 'cd /path/to/your/project && git pull origin main && npm install && npm run build'
+        env:
+          DIGITALOCEAN_USER: ${{ secrets.DIGITALOCEAN_USER }}
+          DIGITALOCEAN_IP: ${{ secrets.DIGITALOCEAN_IP }}
