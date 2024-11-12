@@ -1,31 +1,24 @@
-name: Deploy to DigitalOcean
+name: Deploy to Digital Ocean
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]  # o master, según tu rama principal
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
-    # Paso 1: Checkout del repositorio
-    - name: Checkout repository
-      uses: actions/checkout@v2
-
-    # Paso 2: Configurar clave SSH
-    - name: Set up SSH key
-      run: |
-        mkdir -p ~/.ssh
-        echo "$SSH_PRIVATE_KEY" > ~/.ssh/altitude-ssh  # Guarda la clave privada en el archivo correcto
-        chmod 600 ~/.ssh/altitude-ssh  # Asegura permisos adecuados para la clave
-        ssh-keyscan -H 159.223.134.151 >> ~/.ssh/known_hosts  # Agrega el host al archivo known_hosts
-        cat ~/.ssh/altitude-ssh  # Verifica que la clave privada esté correcta (solo para depuración)
-      env:
-        SSH_PRIVATE_KEY: ${{ secrets.altitude-ssh }}  # Asegúrate de que el secreto esté configurado correctamente en GitHub Secrets
-
-    # Paso 3: Probar la conexión SSH
-    - name: Test SSH connection
-      run: |
-        ssh -i ~/.ssh/altitude-ssh -o StrictHostKeyChecking=no altitude@159.223.134.151 "echo Conexión exitosa"
+    - uses: actions/checkout@v3
+    
+    - name: Deploy to Digital Ocean
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.DIGITALOCEAN_IP }}
+        username: ${{ secrets.DIGITALOCEAN_USERNAME }}
+        key: ${{ secrets.DIGITALOCEAN_SSH_KEY }}
+        script: |
+          cd /var/www/tuproyecto  # ajusta esta ruta
+          git pull origin main
+          npm install
+          npm run build
+          pm2 restart tuapp  # ajusta el nombre de tu app
