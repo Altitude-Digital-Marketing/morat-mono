@@ -1,0 +1,197 @@
+Title: Galeria Inesperada
+
+----
+
+Tour:
+
+-
+  city: "Bogotá"
+  country: "Colombia"
+  date: "14 Aug"
+  venue: "Movistar Arena"
+  tickets: "https://web.tuboleta.com/images/Eventos/Morat-Yem-World-Tour-Ya-es-Manana/home.html"
+  sold_out: true
+-
+  city: "Bogotá"
+  country: "Colombia"
+  date: "15 Aug"
+  venue: "Movistar Arena"
+  tickets: "https://web.tuboleta.com/images/Eventos/Morat-Yem-World-Tour-Ya-es-Manana/home.html"
+  sold_out: true
+-
+  city: "Bogotá"
+  country: "Colombia"
+  date: "16 Aug"
+  venue: "Movistar Arena"
+  tickets: "https://web.tuboleta.com/images/Eventos/Morat-Yem-World-Tour-Ya-es-Manana/home.html"
+  sold_out: true
+-
+  city: "Bogotá"
+  country: "Colombia"
+  date: "21 Aug"
+  venue: "Movistar Arena"
+  tickets: "https://web.tuboleta.com/images/Eventos/Morat-Yem-World-Tour-Ya-es-Manana/home.html"
+  sold_out: false
+-
+  city: "Bogotá"
+  country: "Colombia"
+  date: "22 Aug"
+  venue: "Movistar Arena"
+  tickets: "https://web.tuboleta.com/images/Eventos/Morat-Yem-World-Tour-Ya-es-Manana/home.html"
+  sold_out: false
+-
+  city: "Bogotá"
+  country: "Colombia"
+  date: "23 Aug"
+  venue: "Movistar Arena"
+  tickets: "https://web.tuboleta.com/images/Eventos/Morat-Yem-World-Tour-Ya-es-Manana/home.html"
+  sold_out: false
+-
+  city: "Santiago de Chile"
+  country: "Chile"
+  date: "8 Sep"
+  venue: "Movistar Arena"
+  tickets: "https://www.puntoticket.com/morat-galeria-inesperada"
+  sold_out: false
+-
+  city: "Santiago de Chile"
+  country: "Chile"
+  date: "9 Sep"
+  venue: "Movistar Arena"
+  tickets: "https://www.puntoticket.com/morat-galeria-inesperada"
+  sold_out: false
+-
+  city: "Santiago de Chile"
+  country: "Chile"
+  date: "10 Sep"
+  venue: "Movistar Arena"
+  tickets: "https://www.puntoticket.com/morat-galeria-inesperada"
+  sold_out: false
+-
+  city: "Santiago de Chile"
+  country: "Chile"
+  date: "14 Sep"
+  venue: "Movistar Arena"
+  tickets: "https://www.puntoticket.com/morat-galeria-inesperada"
+  sold_out: false
+-
+  city: "Santiago de Chile"
+  country: "Chile"
+  date: "15 Sep"
+  venue: "Movistar Arena"
+  tickets: "https://www.puntoticket.com/morat-galeria-inesperada"
+  sold_out: false
+-
+  city: "Buenos Aires"
+  country: "Argentina"
+  date: "24 Sep"
+  venue: "Movistar Arena"
+  tickets: "https://www.movistararena.com.ar/show/2e12fec2-a9d6-4e90-a6ce-32e5fdefcadc"
+  sold_out: false
+-
+  city: "Buenos Aires"
+  country: "Argentina"
+  date: "25 Sep"
+  venue: "Movistar Arena"
+  tickets: "https://www.movistararena.com.ar/show/2e12fec2-a9d6-4e90-a6ce-32e5fdefcadc"
+  sold_out: false
+-
+  city: "Buenos Aires"
+  country: "Argentina"
+  date: "26 Sep"
+  venue: "Movistar Arena"
+  tickets: "https://www.movistararena.com.ar/show/2e12fec2-a9d6-4e90-a6ce-32e5fdefcadc"
+  sold_out: false
+-
+  city: "Buenos Aires"
+  country: "Argentina"
+  date: "29 Sep"
+  venue: "Movistar Arena"
+  tickets: "https://www.movistararena.com.ar/show/2e12fec2-a9d6-4e90-a6ce-32e5fdefcadc"
+  sold_out: false
+-
+  city: "Buenos Aires"
+  country: "Argentina"
+  date: "30 Sep"
+  venue: "Movistar Arena"
+  tickets: "https://www.movistararena.com.ar/show/2e12fec2-a9d6-4e90-a6ce-32e5fdefcadc"
+  sold_out: false
+-
+  city: "Barcelona"
+  country: "España"
+  date: "16 Oct"
+  venue: "Palau Sant Jordi"
+  tickets: "https://www.ticketmaster.es/explore/galeria-inesperada-morat"
+  sold_out: false
+-
+  city: "Barcelona"
+  country: "España"
+  date: "17 Oct"
+  venue: "Palau Sant Jordi"
+  tickets: "https://www.ticketmaster.es/explore/galeria-inesperada-morat"
+  sold_out: false
+-
+  city: "Pamplona"
+  country: "España"
+  date: "21 Oct"
+  venue: "Navarra Arena"
+  tickets: "https://www.ticketmaster.es/explore/galeria-inesperada-morat"
+  sold_out: false
+-
+  city: "Valencia"
+  country: "España"
+  date: "23 Oct"
+  venue: "Roig Arena"
+  tickets: "https://www.ticketmaster.es/explore/galeria-inesperada-morat"
+  sold_out: false
+-
+  city: "Sevilla"
+  country: "España"
+  date: "25 Oct"
+  venue: "Ctro Andaluz Arte Contemporaneo"
+  tickets: "https://www.ticketmaster.es/explore/galeria-inesperada-morat"
+  sold_out: false
+-
+  city: "Madrid"
+  country: "España"
+  date: "27 Oct"
+  venue: "Movistar Arena"
+  tickets: "https://www.ticketmaster.es/explore/galeria-inesperada-morat"
+  sold_out: false
+-
+  city: "Madrid"
+  country: "España"
+  date: "28 Oct"
+  venue: "Movistar Arena"
+  tickets: "https://www.ticketmaster.es/explore/galeria-inesperada-morat"
+  sold_out: false
+-
+  city: "Madrid"
+  country: "España"
+  date: "30 Oct"
+  venue: "Movistar Arena"
+  tickets: "https://www.ticketmaster.es/explore/galeria-inesperada-morat"
+  sold_out: false
+-
+  city: "Madrid"
+  country: "España"
+  date: "31 Oct"
+  venue: "Movistar Arena"
+  tickets: "https://www.ticketmaster.es/explore/galeria-inesperada-morat"
+  sold_out: false
+
+----
+
+Seo-title: Galería Inesperada | Morat
+
+----
+
+Seo-description:
+
+----
+
+Seo-picture:
+
+----
+
+Uuid: Gi8x2kL4mNpQw3Ry
