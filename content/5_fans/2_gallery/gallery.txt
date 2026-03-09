@@ -6,8 +6,8 @@ Uuid: qGYRzUB3oUWRyu1c
 
 ----
 
-Seo-description: 
+Seo-description:
 
 ----
 
-Seo-picture: 
+Seo-picture:

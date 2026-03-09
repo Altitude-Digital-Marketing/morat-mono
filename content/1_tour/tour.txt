@@ -4,28 +4,163 @@ Title: Tour
 
 Tour:
 
-- 
-  city: ""
-  date: ""
-  year: ""
-  venue: ""
+-
+  city: "Córdoba, Argentina"
+  date: "15 Feb"
+  year: "2026"
+  venue: "Cosquín Rock"
+  tickets: "https://www.edenentradas.ar/event/cosquin-rock-2026"
+  sold_out: false
+-
+  city: "California, USA"
+  date: "12 Apr"
+  year: "2026"
+  venue: "Coachella"
+  tickets: "https://www.axs.com/festivals/943840/waitlist"
+  sold_out: false
+-
+  city: "California, USA"
+  date: "19 Apr"
+  year: "2026"
+  venue: "Coachella"
+  tickets: "https://www.axs.com/festivals/943872/waitlist"
+  sold_out: false
+-
+  city: "Bogotá, Colombia"
+  date: "14 Aug"
+  year: "2026"
+  venue: "Movistar Arena"
   tickets: ""
-  sold_out: 'false'
-
-----
-
-Seo-title: 
-
-----
-
-Seo-description: 
-
-----
-
-Seo-picture: 
+  sold_out: true
+-
+  city: "Bogotá, Colombia"
+  date: "15 Aug"
+  year: "2026"
+  venue: "Movistar Arena"
+  tickets: ""
+  sold_out: true
+-
+  city: "Bogotá, Colombia"
+  date: "16 Aug"
+  year: "2026"
+  venue: "Movistar Arena"
+  tickets: ""
+  sold_out: true
+-
+  city: "Bogotá, Colombia"
+  date: "21 Aug"
+  year: "2026"
+  venue: "Movistar Arena"
+  tickets: "https://web.tuboleta.com/images/Eventos/Morat-Yem-World-Tour-Ya-es-Manana/home.html"
+  sold_out: false
+-
+  city: "Bogotá, Colombia"
+  date: "22 Aug"
+  year: "2026"
+  venue: "Movistar Arena"
+  tickets: "https://web.tuboleta.com/images/Eventos/Morat-Yem-World-Tour-Ya-es-Manana/home.html"
+  sold_out: false
+-
+  city: "Bogotá, Colombia"
+  date: "23 Aug"
+  year: "2026"
+  venue: "Movistar Arena"
+  tickets: "https://web.tuboleta.com/images/Eventos/Morat-Yem-World-Tour-Ya-es-Manana/home.html"
+  sold_out: false
+-
+  city: "Buenos Aires, Argentina"
+  date: "24 Sep"
+  year: "2026"
+  venue: "Movistar Arena"
+  tickets: ""
+  sold_out: true
+-
+  city: "Buenos Aires, Argentina"
+  date: "25 Sep"
+  year: "2026"
+  venue: "Movistar Arena"
+  tickets: ""
+  sold_out: true
+-
+  city: "Buenos Aires, Argentina"
+  date: "26 Sep"
+  year: "2026"
+  venue: "Movistar Arena"
+  tickets: ""
+  sold_out: true
+-
+  city: "Buenos Aires, Argentina"
+  date: "29 Sep"
+  year: "2026"
+  venue: "Movistar Arena"
+  tickets: "https://www.movistararena.com.ar/show/da59bcb8-8508-4874-8346-16e6191db0e4"
+  sold_out: false
+-
+  city: "Barcelona, España"
+  date: "16 Oct"
+  year: "2026"
+  venue: "Palau Sant Jordi"
+  tickets: "https://www.ticketmaster.es/event/985932005?brand=base_mb_es"
+  sold_out: false
+-
+  city: "Barcelona, España"
+  date: "17 Oct"
+  year: "2026"
+  venue: "Palau Sant Jordi"
+  tickets: "https://www.ticketmaster.es/event/659122207?brand=base_mb_es"
+  sold_out: false
+-
+  city: "Pamplona. España"
+  date: "21 Oct"
+  year: "2026"
+  venue: "Navarra Arena"
+  tickets: "https://www.ticketmaster.es/event/1811980147?brand=base_mb_es"
+  sold_out: false
+-
+  city: "Valencia, España"
+  date: "23 Oct"
+  year: "2026"
+  venue: "Roig Arena"
+  tickets: "https://www.ticketmaster.es/event/1856771310?brand=base_mb_es"
+  sold_out: false
+-
+  city: "Sevilla, España"
+  date: "25 Oct"
+  year: "2026"
+  venue: "CAAC"
+  tickets: "https://www.ticketmaster.es/event/694038250?brand=base_mb_es"
+  sold_out: false
+-
+  city: "Madrid, España"
+  date: "27 Oct"
+  year: "2026"
+  venue: "Movistar Arena"
+  tickets: ""
+  sold_out: true
+-
+  city: "Madrid, España"
+  date: "28 Oct"
+  year: "2026"
+  venue: "Movistar Arena"
+  tickets: ""
+  sold_out: true
+-
+  city: "Madrid, España"
+  date: "30 Oct"
+  year: "2026"
+  venue: "Movistar Arena"
+  tickets: "https://www.ticketmaster.es/event/morat-entradas/944130086"
+  sold_out: false
+-
+  city: "Madrid, España"
+  date: "31 Oct"
+  year: "2026"
+  venue: "Movistar Arena"
+  tickets: "https://www.ticketmaster.es/event/morat-entradas/446952508"
+  sold_out: false
 
 ----
 
 Uuid: 0HcUTp5Zihl0X7FN
 
-
+----

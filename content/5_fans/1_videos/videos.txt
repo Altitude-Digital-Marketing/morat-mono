@@ -6,12 +6,28 @@ Uuid: qnI4fX9onKVmlfaa
 
 ----
 
-Videos: 
+Videos:
+
+-
+  title: Video 1
+  link: https://www.youtube.com/watch?v=lBW-IIR__L4
+-
+  title: Video 2
+  link: https://www.youtube.com/watch?v=IMVDj23jKAU
+-
+  title: Video 3
+  link: https://www.youtube.com/watch?v=bv8lF1dQYm8
+-
+  title: Video 4
+  link: https://www.youtube.com/watch?v=8KvOVo3FC2U
+-
+  title: Video 5
+  link: https://www.youtube.com/watch?v=KZyRQTCq25A
 
 ----
 
-Seo-description: 
+Seo-description:
 
 ----
 
-Seo-picture: 
+Seo-picture:

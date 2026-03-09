@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 
-<main>
-    <h1>Kirby CMS Plainkit | <?= $site->title() ?></h1>
+<main class="page">
+    <h1 class="t-cond t-xlarge t-uppercase padding-t_xsmall margin-b_large"><?= $page->title() ?></h1>
 </main>
 
 <?php snippet('footer') ?>

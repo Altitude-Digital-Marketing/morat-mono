@@ -1,0 +1,18 @@
+main>nav {
+    position: sticky;
+    top: calc(var(--headerHeightM) + 14.75vh);
+    z-index: 40;
+}
+@media only screen and (min-width: 1024px) {
+    main > nav {
+        top: calc(5vw + 2rem);
+        margin-bottom: 4rem !important;
+    }
+
+    #page-title {margin-bottom: 0;}
+}
+/* 
+ITEM
+*/
+.news_p-item,
+.news_p-item > * {grid-column: 1/-1;}

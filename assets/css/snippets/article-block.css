@@ -1,0 +1,38 @@
+.article-block > * {grid-column: 1/-1;}
+
+.article-block img,
+.article-block video {transition: transform 250ms ease;}
+
+.article-block article {
+    text-overflow: ellipsis;
+    max-height: 5.75rem;
+    display: -webkit-box;
+    line-clamp: 4;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 1024px) {
+    .article-block.--large figure {
+        grid-column: 1/6;
+        margin-bottom: 0;
+    }
+    
+    .article-block.--large > div {
+        grid-column: 6/-1;
+        height: 100%;
+    }
+    
+    .article-block article {
+        text-overflow: ellipsis;
+        max-height: 7rem;
+    }
+    
+    .article-block.--large p {margin-top: auto;}
+}
+
+@media (hover: hover) {
+    .article-block:hover img,
+    .article-block:hover video {transform: scale(1.05);}
+}

@@ -2,22 +2,978 @@ Title: Music
 
 ----
 
+Highlight: https://www.youtube.com/watch?v=TJSZGoS_YFg
+
+----
+
 Music:
 
-- 
-  title: ""
-  artist: ""
-  duration: ""
-  year: ""
-  cover: [ ]
-  youtube: ""
-  spotify: ""
-  apple_music: ""
-  amazon: ""
+-
+  title: "Sin ti"
+  artist: "Morat, Jay Wheeler"
+  duration: "2:38"
+  year: "2025"
+  cover:
+    - cover-yem-oficial.png
+  youtube: "https://youtu.be/TJSZGoS_YFg?si=U8qPchiTHYYAHHze"
+  spotify: "https://open.spotify.com/track/61FyzJrqgRsOAqr7FB2Pz4?si=03f66b1823a64ee5"
+  apple_music: "https://music.apple.com/ec/song/sin-ti/1811913889"
+  amazon: "https://music.amazon.es/tracks/B0F82VGRNP?marketplaceId=A1RKKUPIHCS9HS&musicTerritory=ES&ref=dm_sh_72MngkI5qy6MDCOkL9dvjLWpd"
+  souncloud: ""
+  tidal: "https://tidal.com/browse/track/436286626"
+  google_play: ""
+-
+  title: "Ya Es Mañana"
+  artist: "Morat"
+  duration: "4:58"
+  year: "2025"
+  cover:
+    - cover-yem-oficial.png
+  youtube: "https://youtu.be/yPpCYRt8BRE?si=yIj6xBSW81Lxjh3h"
+  spotify: "https://open.spotify.com/intl-es/track/1jgnWDVQTbxT0coVTiCYyR?si=b1b02c6dc17c4f40"
+  apple_music: "https://music.apple.com/ec/album/ya-es-ma%C3%B1ana/1811913880?i=1811913881&l=en-GB"
+  amazon: "https://music.amazon.com/albums/B0F82CGG1Y?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_ocoa07bVsqruPiTRDQoAEw2DT&trackAsin=B0F82PTXTY"
+  souncloud: ""
+  tidal: "https://tidal.com/browse/track/436286769?u"
+  google_play: ""
+-
+  title: "Eclipse Solar"
+  artist: "Morat"
+  duration: "3:13"
+  year: "2025"
+  cover:
+    - cover-yem-oficial.png
+  youtube: "https://youtu.be/_jCPsBS8RFQ?si=xY_yGtTym4BEGjJ5"
+  spotify: "https://open.spotify.com/intl-es/track/6NWLG3pJ4h5WBJfWwsk9Po?si=78c6411265e14c47"
+  apple_music: "https://music.apple.com/ec/album/eclipse-solar/1811913880?i=1811913885&l=en-GB"
+  amazon: "https://music.amazon.com/albums/B0F82CGG1Y?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_QQFQ5CBX3QeXF1uJ462W1XsNM&trackAsin=B0F82G2RK4"
+  souncloud: ""
+  tidal: "https://tidal.com/browse/track/436286770?u"
+  google_play: ""
+-
+  title: "Domingo De Bajón"
+  artist: "Morat"
+  duration: "2:56"
+  year: "2025"
+  cover:
+    - cover-yem-oficial.png
+  youtube: "https://youtu.be/rwXCKXoAvKg?si=wYuOoCRJivo736v3"
+  spotify: "https://open.spotify.com/intl-es/track/3vbLugKHzbRm95NqzIeE4X?si=1e638a5b352b4446"
+  apple_music: "https://music.apple.com/ec/album/domingo-de-baj%C3%B3n/1811913880?i=1811913887&l=en-GB"
+  amazon: "https://music.amazon.com/albums/B0F82CGG1Y?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_wcfExlSs5LRiQF6pTwG0JnRhJ&trackAsin=B0F82HND4K"
+  souncloud: ""
+  tidal: "https://tidal.com/browse/track/436286771?u"
+  google_play: ""
+-
+  title: "Sin Ti"
+  artist: "Morat, Jay Wheeler"
+  duration: "2:38"
+  year: "2025"
+  cover:
+    - cover-yem-oficial.png
+  youtube: "https://youtu.be/6h6KlvnI8SQ?si=AeDZ4FhtfO8GTdIs"
+  spotify: "https://open.spotify.com/intl-es/track/61FyzJrqgRsOAqr7FB2Pz4?si=43f9c3a89c784187"
+  apple_music: "https://music.apple.com/ec/album/sin-ti/1811913880?i=1811913889&l=en-GB"
+  amazon: "https://music.amazon.com/albums/B0F82CGG1Y?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_Jth94E4hFD27AeIZuHNQXX3EX&trackAsin=B0F823QZ3L"
+  souncloud: ""
+  tidal: "https://tidal.com/browse/track/436286772?u"
+  google_play: ""
+-
+  title: "Por Si No Te Vuelvo A Ver"
+  artist: "Morat"
+  duration: "3:05"
+  year: "2025"
+  cover:
+    - cover-yem-oficial.png
+  youtube: "https://youtu.be/yo9HKduc5ks?si=Qmn1QoT6v_KkrxDp"
+  spotify: "https://open.spotify.com/intl-es/track/2sOfn3QFDztBlqQWnzN8KA?si=bec217bdc853471e"
+  apple_music: "https://music.apple.com/ec/album/por-si-no-te-vuelvo-a-ver/1811913880?i=1811914281&l=en-GB"
+  amazon: "https://music.amazon.com/albums/B0F82CGG1Y?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_Za5Px54cySYWFK1ekSO64L2uZ&trackAsin=B0F82PFR7J"
+  souncloud: ""
+  tidal: "https://tidal.com/browse/track/436286773?u"
+  google_play: ""
+-
+  title: "Cuarto De Hotel"
+  artist: "Morat"
+  duration: "2:57"
+  year: "2025"
+  cover:
+    - cover-yem-oficial.png
+  youtube: "https://youtu.be/DmsReo3EbnE?si=zKm3qMrDc9QwN3ZV"
+  spotify: "https://open.spotify.com/intl-es/track/4fW0QYrxwrNhRDpG22vQDt?si=65a49ae772ff41d5"
+  apple_music: "https://music.apple.com/ec/album/cuarto-de-hotel/1811913880?i=1811914282&l=en-GB"
+  amazon: "https://music.amazon.com/albums/B0F82CGG1Y?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_zajzsC8p0uIgoHhYvRIgNjbD7&trackAsin=B0F82FC1KF"
+  souncloud: ""
+  tidal: "https://tidal.com/browse/track/436286774?u"
+  google_play: ""
+-
+  title: "Vuelvo A Ti"
+  artist: "Morat"
+  duration: "3:06"
+  year: "2025"
+  cover:
+    - cover-yem-oficial.png
+  youtube: "https://youtu.be/jIqzljbN0lw?si=rLGiErWXOMS73rXJ"
+  spotify: "https://open.spotify.com/intl-es/track/2WgzOFCUFCQbpINnhOAFjF?si=e9903937bb224593"
+  apple_music: "https://music.apple.com/ec/album/vuelvo-a-ti/1811913880?i=1811914283&l=en-GB"
+  amazon: "https://music.amazon.com/albums/B0F82CGG1Y?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_0U6exD3muS8XP80Ds2cbKOiXN&trackAsin=B0F82F8QFK"
+  souncloud: ""
+  tidal: "https://tidal.com/browse/track/436286775?u"
+  google_play: ""
+-
+  title: "Me Toca A Mí"
+  artist: "Morat, Camilo"
+  duration: "3:00"
+  year: "2025"
+  cover:
+    - cover-yem-oficial.png
+  youtube: "https://youtu.be/-vOgEO13FYA?si=-W8RuFyKv7Rw7sYe"
+  spotify: "https://open.spotify.com/intl-es/track/68k7kpYFI8CJUoNFGxWpjG?si=fba258b6f10e4d78"
+  apple_music: "https://music.apple.com/ec/album/me-toca-a-m%C3%AD/1811913880?i=1811914284&l=en-GB"
+  amazon: "https://music.amazon.com/albums/B0F82CGG1Y?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_ctLL29JsYAFblzldtZxRwVwju&trackAsin=B0F82VCZFN"
+  souncloud: ""
+  tidal: "https://tidal.com/browse/track/436286776?u"
+  google_play: ""
+-
+  title: "Desastre Natural"
+  artist: "Morat"
+  duration: "3:00"
+  year: "2025"
+  cover:
+    - cover-yem-oficial.png
+  youtube: "https://youtu.be/gsC07rl7DP8?si=T_kyXrU18qaGRiHq"
+  spotify: "https://open.spotify.com/intl-es/track/2ADYlThoNm6sGxARUiDBrD?si=08c67a553726424e"
+  apple_music: "https://music.apple.com/ec/album/desastre-natural/1811913880?i=1811914285&l=en-GB"
+  amazon: "https://music.amazon.com/albums/B0F82CGG1Y?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_rFx9tXT728wPOxiYwZ6yvsTGx&trackAsin=B0F82F41L9"
+  souncloud: ""
+  tidal: "https://tidal.com/browse/track/436286777?u"
+  google_play: ""
+-
+  title: "La Policía"
+  artist: "Morat"
+  duration: "2:37"
+  year: "2025"
+  cover:
+    - cover-yem-oficial.png
+  youtube: "https://youtu.be/m24htoJZH4Q?si=8Kp9GSRwtyng26Ys"
+  spotify: "https://open.spotify.com/intl-es/track/0MmByJT7c59OY6Nk7KD1io?si=58c214e2be684a92"
+  apple_music: "https://music.apple.com/ec/album/la-polic%C3%ADa/1811913880?i=1811914286&l=en-GB"
+  amazon: "https://music.amazon.com/albums/B0F82CGG1Y?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_DV91tjX28bqrGcUzsSfSujpuF&trackAsin=B0F82FBSTH"
+  souncloud: ""
+  tidal: "https://tidal.com/browse/track/436286778?u"
+  google_play: ""
+-
+  title: "Faltas Tú"
+  artist: "Morat"
+  duration: "3:21"
+  year: "2025"
+  cover:
+    - cover-yem-oficial.png
+  youtube: "https://youtu.be/lIkq-a92p_Q?si=skCdPsySjAu8s2uu"
+  spotify: "https://open.spotify.com/intl-es/track/1axF4SVGYPwCjE1TvuovZL?si=8bbac65de36549fb"
+  apple_music: "https://music.apple.com/ec/album/faltas-t%C3%BA/1811913880?i=1811914287&l=en-GB"
+  amazon: "https://music.amazon.com/albums/B0F82CGG1Y?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_uvIRoGkZ9rllLw70w7DNSND6a&trackAsin=B0F82WT35C"
+  souncloud: ""
+  tidal: "https://tidal.com/browse/track/436286779?u"
+  google_play: ""
+-
+  title: "Dos Mil Algo"
+  artist: "Morat"
+  duration: "3:42"
+  year: "2025"
+  cover:
+    - cover-yem-oficial.png
+  youtube: "https://youtu.be/LbOVjSAqDnA?si=OPphXQKPVJ6YTeEu"
+  spotify: "https://open.spotify.com/intl-es/track/3a0KE0DyuwcMGqYOo6LJll?si=4cb98d63e0d34476"
+  apple_music: "https://music.apple.com/ec/album/dos-mil-algo/1811913880?i=1811914290&l=en-GB"
+  amazon: "https://music.amazon.com/albums/B0F82CGG1Y?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_C5XBA5B86vlxY2KyNglxPWACL&trackAsin=B0F82HNG4G"
+  souncloud: ""
+  tidal: "https://tidal.com/browse/track/436286780?u"
+  google_play: ""
+-
+  title: "MTV"
+  artist: "Morat"
+  duration: "3:11"
+  year: "2025"
+  cover:
+    - cover-yem-oficial.png
+  youtube: "https://youtu.be/BYNd3bY8UFk?si=JrOTr6ufMIjNg0A1"
+  spotify: "https://open.spotify.com/intl-es/track/3NMKrGrkAnGaKdY2wlgTSR?si=97178f37f2934a84"
+  apple_music: "https://music.apple.com/ec/album/mtv/1811913880?i=1811914291&l=en-GB"
+  amazon: "https://music.amazon.com/albums/B0F82CGG1Y?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_LQf7JNgL6lYUX3G6rJ0NdKyeT&trackAsin=B0F8265N22"
+  souncloud: ""
+  tidal: "https://tidal.com/browse/track/436286781?u"
+  google_play: ""
+-
+  title: "Antes De Los 30"
+  artist: "Morat"
+  duration: "3:39"
+  year: "2025"
+  cover:
+    - cover-yem-oficial.png
+  youtube: "https://youtu.be/q-2VamdNzJ8?si=BCwELRHegOD5YayP"
+  spotify: "https://open.spotify.com/intl-es/track/3eeWhFxphzRaiX2TKh4RAA?si=237aeb86d6244a26"
+  apple_music: "https://music.apple.com/ec/album/antes-de-los-30/1811913880?i=1811914292&l=en-GB"
+  amazon: "https://music.amazon.com/albums/B0F82CGG1Y?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_4puyp2amaYw9kQ2FI7gVz3M6h&trackAsin=B0F82F22VS"
+  souncloud: ""
+  tidal: "https://tidal.com/browse/track/436286782?u"
+  google_play: ""
+-
+  title: "Ciudad Amurallada"
+  artist: "Ariza, Morat"
+  duration: "2:50"
+  year: "2025"
+  cover:
+    - ciudad-amurallada-morat.jpeg
+  youtube: "https://www.youtube.com/watch?v=OoXRWK6Jqzs&list=RDOoXRWK6Jqzs&start_radio=1"
+  spotify: "https://open.spotify.com/album/33jmWzMREAOfBM33f8KmNV?si=XyeJRP-LShu3VErKJ4EPDQ"
+  apple_music: "https://music.apple.com/ec/song/ciudad-amurallada/1805904519"
+  amazon: "https://music.amazon.es/tracks/B0F2PV8FF8?marketplaceId=A1RKKUPIHCS9HS&musicTerritory=ES&ref=dm_sh_GNfnAPUk1GNrR6gcBLkmjTseU"
+  souncloud: "https://soundcloud.com/ariza38184/ciudad-amurallada?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+  tidal: "https://tidal.com/browse/album/426655695?u"
+  google_play: ""
+-
+  title: "Un Beso Menos"
+  artist: "Elena Rose, Morat"
+  duration: "3:40"
+  year: "2025"
+  cover:
+    - un-beso-menos.jpeg
+  youtube: "https://youtu.be/ysfIP9MQS1U?si=e2IcGav-RVicmbil"
+  spotify: "https://open.spotify.com/album/6zubHY30q9LfWVJYX7KPQR?si=rk-rrMHJRruUTukfs8VW0A"
+  apple_music: "https://music.apple.com/ec/song/un-beso-menos/1791899401"
+  amazon: "https://music.amazon.es/tracks/B0DTMD54MR?marketplaceId=A1RKKUPIHCS9HS&musicTerritory=ES&ref=dm_sh_aGDZM2QURjwYGaV3oqhaGEoz6"
+  souncloud: ""
+  tidal: "https://tidal.com/browse/album/413008895?u"
+  google_play: ""
+-
+  title: "Bien"
+  artist: "Andrés Cepeda, Morat"
+  duration: "2:23"
+  year: "2025"
+  cover:
+    - bien-andres-cepeda-morat.jpeg
+  youtube: "https://youtu.be/P-aYj_Xfr4Q?si=vgihhb58SuE2rZzm"
+  spotify: "https://open.spotify.com/track/37vZpaEp0xzi37NcgeA3El?si=71e71a40cb414d36"
+  apple_music: "https://music.apple.com/ec/song/bien/1825270829"
+  amazon: "https://music.amazon.es/tracks/B0FH125S9M?marketplaceId=A1RKKUPIHCS9HS&musicTerritory=ES&ref=dm_sh_oT821eRXSX2aC2pdS17d2v2wD"
+  souncloud: ""
+  tidal: "https://tidal.com/browse/track/446638049"
+  google_play: ""
+-
+  title: "La Policía"
+  artist: "Morat"
+  duration: "2:37"
+  year: "2024"
+  cover:
+    - portada_lapolicia_collage_v4-1-1.jpg
+  youtube: "https://youtu.be/m24htoJZH4Q?si=mBIDUmltacgezE8W"
+  spotify: "https://open.spotify.com/track/0ZhdPl4IGi5OhxoCF59CBh?si=66b765219a424e19"
+  apple_music: "https://music.apple.com/ec/album/la-polic%C3%ADa-single/1778388169?l=en-GB"
+  amazon: "https://amazon.com/music/player/albums/B0DN14JL1S?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_5HZe777WEsopVEI4Ivig23hCv&trackAsin=B0DN12J5C7"
   souncloud: ""
   tidal: ""
   google_play: ""
-
+-
+  title: "Por Si No Te Vuelvo A Ver"
+  artist: "Morat"
+  duration: "3:05"
+  year: "2024"
+  cover:
+    - img_4174-1-1.jpg
+  youtube: "https://youtu.be/yo9HKduc5ks?si=j-RG-Nnr7hmYoN_i"
+  spotify: "https://open.spotify.com/intl-es/track/20enjIUEen7tNZXTRLDxXi?si=58c1a403551349fb"
+  apple_music: "https://music.apple.com/ec/album/por-si-no-te-vuelvo-a-ver/1764408338?i=1764408339"
+  amazon: "https://amazon.com/music/player/albums/B0DG7H49F6?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_XLF5TTxrmeQIQDr79vfFEdns0&trackAsin=B0DG7R8JZR"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Antes De Los 30 - En Sueño Desde Madrid"
+  artist: "Morat"
+  duration: "3:27"
+  year: "2024"
+  cover:
+    - antes-de-los-30.png
+  youtube: "https://youtu.be/c9tasqH2zBM?si=CXjzGap9sY1yEas4"
+  spotify: "https://open.spotify.com/intl-es/track/4igZX8SIbQbLDl0UxZWQpr?si=380a0a2a237c4810"
+  apple_music: "https://music.apple.com/ec/album/antes-de-los-30-en-sue%C3%B1o-desde-madrid/1758217373?i=1758217374&l=en-GB"
+  amazon: "https://amazon.com/music/player/albums/B0DBXC4VMH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_o4c0sVjfoGWNs4BFi0Jzn26qs&trackAsin=B0DBX96HJH"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Perderme - Banda Sonora Original de la serie "Zorro""
+  artist: "Morat"
+  duration: "3:22"
+  year: "2024"
+  cover:
+    - captura-de-pantalla-2024-09-05-a-la-s-6.17.25p.m.-min.png
+  youtube: "https://www.youtube.com/watch?v=Z7JUK12YtlA&list=OLAK5uy_mOBPgrn5nj1xLbRq7nSj1qD0G2Q89yAGM"
+  spotify: "https://open.spotify.com/intl-es/track/0SHqDTGrpphogv8ndojWJn?si=04689f436ca54832"
+  apple_music: "https://music.apple.com/es/album/perderme-banda-sonora-original-de-la-serie-zorro/1726662111?i=1726662114"
+  amazon: "https://music.amazon.es/albums/B0CSTGKD14?marketplaceId=A1RKKUPIHCS9HS&musicTerritory=ES&ref=dm_sh_NkSr26OeIjHdC0E9gC3jSBhJC"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Faltas Tú"
+  artist: "Morat"
+  duration: "3:21"
+  year: "2024"
+  cover:
+    - captura-de-pantalla-2024-09-05-a-la-s-6.22.39p.m.-min.png
+  youtube: "https://www.youtube.com/watch?v=lIkq-a92p_Q&list=OLAK5uy_mdTkpFlfB5RJzE4mr5r7L2e_9AW3eWcts"
+  spotify: "https://open.spotify.com/intl-es/track/4mIc3AQWkqLb2LVjkVKv4K?si=5cf4419348e4479f"
+  apple_music: "https://music.apple.com/es/album/faltas-t%C3%BA/1733775112?i=1733775118"
+  amazon: "https://music.amazon.es/albums/B0CZD3P84L?marketplaceId=A1RKKUPIHCS9HS&musicTerritory=ES&ref=dm_sh_qMowfZ21tMPNZNQbnHkQBARjt"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "LOS DOS"
+  artist: "Grupo Frontera, Morat"
+  duration: "3:34"
+  year: "2024"
+  cover:
+    - captura-de-pantalla-2024-08-01-a-la-s-15.03.05.png
+  youtube: "https://www.youtube.com/watch?v=PeoHibaMD2s&list=OLAK5uy_ljcJmA7zTdWTqqmwlaRoAB-mRIv8WK6Fg"
+  spotify: "https://open.spotify.com/intl-es/track/0wbPydD5UUkau6EKhtBqjM?si=9fcf9eb4dfec43f2"
+  apple_music: "https://music.apple.com/us/album/los-dos/1743186240?i=1743186752"
+  amazon: "https://music.amazon.es/albums/B0D3JBNXKY?marketplaceId=A1RKKUPIHCS9HS&musicTerritory=ES&ref=dm_sh_n1uo2lV6tEviuxQCXEEl6LXwr"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Sobreviviste"
+  artist: "Morat"
+  duration: "3:06"
+  year: "2023"
+  cover:
+    - captura-de-pantalla-2024-08-01-a-la-s-15.06.28.png
+  youtube: "https://www.youtube.com/watch?v=2-6n_p-g6qE"
+  spotify: "https://open.spotify.com/intl-es/track/2YSAaVLn3sCZ42TAgjMHHm?si=06c381b4504249cd"
+  apple_music: "https://music.apple.com/es/album/sobreviviste/1718152309?i=1718153420"
+  amazon: "https://music.amazon.es/tracks/B0CPSD11GK?marketplaceId=A1RKKUPIHCS9HS&musicTerritory=ES&ref=dm_sh_gpuWcUH1oDBAHyYjZ8vCigR4k"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Feo"
+  artist: "Morat"
+  duration: "2:57"
+  year: "2023"
+  cover:
+    - captura-de-pantalla-2024-08-26-a-la-s-09.44.39.png
+  youtube: "https://www.youtube.com/watch?v=uE5pTMfxjBU&list=OLAK5uy_lsuDs6ml8SzmTv7qkCs7X5GSTXKGTOh7w"
+  spotify: "https://open.spotify.com/intl-es/track/0zZzASdqR6KoTbwcSKplma?si=7ec313984d2c4a2e"
+  apple_music: "https://music.apple.com/es/album/feo/1718152309?i=1718152312"
+  amazon: "https://music.amazon.es/tracks/B0CPS5N4M6?marketplaceId=A1RKKUPIHCS9HS&musicTerritory=ES&ref=dm_sh_07MNfYmZdrg0fHIBvLC93sFa1"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Demasiado Lejos"
+  artist: "Morat"
+  duration: "2:59"
+  year: "2023"
+  cover:
+    - captura-de-pantalla-2024-08-26-a-la-s-08.35.35.png
+  youtube: "https://www.youtube.com/watch?v=Sbk-m7si7Lg&list=OLAK5uy_lsuDs6ml8SzmTv7qkCs7X5GSTXKGTOh7w&index=4"
+  spotify: "https://open.spotify.com/intl-es/track/1ydCxlXVCoMOzl3a1ePBjg?si=285215b4877e46c0"
+  apple_music: "https://music.apple.com/es/album/demasiado-lejos/1718152309?i=1718152629"
+  amazon: "https://music.amazon.es/tracks/B0CPSD11GK?marketplaceId=A1RKKUPIHCS9HS&musicTerritory=ES&ref=dm_sh_WNkyvj86j077i0xGqoYtN1Q0d"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Tarde"
+  artist: "Morat"
+  duration: "02:47"
+  year: "2023"
+  cover:
+    - tarde.jpeg
+  youtube: "https://www.youtube.com/watch?v=U29h5Ocgj30"
+  spotify: "https://open.spotify.com/intl-pt/artist/5C4PDR4LnhZTbVnKWXuDKD"
+  apple_music: "https://music.apple.com/pt/artist/morat/955657302?l=en-GB"
+  amazon: "https://music.amazon.com/morat"
+  souncloud: "https://soundcloud.com/morat"
+  tidal: "https://tidal.com/morat"
+  google_play: ""
+-
+  title: "Someone I Used To Know"
+  artist: "Morat"
+  duration: "2:55"
+  year: "2023"
+  cover:
+    - captura-de-pantalla-2024-09-05-a-la-s-5.06.57p.m.-min.png
+  youtube: "https://www.youtube.com/watch?v=W_7tOV2Pels&list=OLAK5uy_lsuDs6ml8SzmTv7qkCs7X5GSTXKGTOh7w&index=3"
+  spotify: "https://open.spotify.com/intl-es/track/2SwmALQ2N9m0RpSsztkIJl?si=565d9fd645af464b"
+  apple_music: "https://music.apple.com/es/album/nunca-volvieron/1718152309?i=1718152319"
+  amazon: "https://music.amazon.es/tracks/B0CPSB8VSD?marketplaceId=A1RKKUPIHCS9HS&musicTerritory=ES&ref=dm_sh_jaWPDGwLqARIrOAF9zbv9EP6u"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Nunca Volvieron"
+  artist: "Morat"
+  duration: "3:21"
+  year: "2023"
+  cover:
+    - ab67616d0000b273447dbd3b0c363465bb698119.jpeg
+  youtube: "https://www.youtube.com/watch?v=4etKcVBcCVc&list=OLAK5uy_lsuDs6ml8SzmTv7qkCs7X5GSTXKGTOh7w&index=2"
+  spotify: "https://open.spotify.com/intl-es/track/3vbPFmgM1KBVbnV0Ydwcex?si=edd13fbfd8da4a17"
+  apple_music: "https://music.apple.com/es/album/nunca-volvieron/1718152309?i=1718152319"
+  amazon: "https://music.amazon.es/tracks/B0CPS5N4M6?marketplaceId=A1RKKUPIHCS9HS&musicTerritory=ES&ref=dm_sh_d1fpoc6rN5osWokPNWQfAUKpPc"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Hasta por La Mañana"
+  artist: "Manuel Carrasco, Morat"
+  duration: "2:51"
+  year: "2023"
+  cover:
+    - captura-de-pantalla-2024-09-05-a-la-s-6.19.15p.m.-min.png
+  youtube: "https://www.youtube.com/watch?v=o5aUR4saSLY&list=OLAK5uy_m0hNrtU9i3s7zXHpmEBO8013rrS8mOUu4"
+  spotify: "https://open.spotify.com/intl-es/track/2XTcif4p4qS5oXWtcnBzhK?si=9393d72800c9429e"
+  apple_music: "https://music.apple.com/es/album/hasta-por-la-ma%C3%B1ana-single/1692835919"
+  amazon: "https://music.amazon.es/albums/B0C9DDKDYD?marketplaceId=A1RKKUPIHCS9HS&musicTerritory=ES&ref=dm_sh_jSK3eIewA1zFyTbRM6mxhILIr"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "El Ataque De Las Chicas Cocodrilo"
+  artist: "Hombre G, Morat"
+  duration: "2:37"
+  year: "2023"
+  cover:
+    - captura-de-pantalla-2024-09-05-a-la-s-6.21.07p.m.-min.png
+  youtube: "https://youtu.be/wu6pU22d4UQ?si=bnipQNz4H8anTTSH"
+  spotify: "https://open.spotify.com/intl-es/track/4dy99PdH0CM3dbNUwJRoDw?si=3042ac659faf4d52"
+  apple_music: "https://music.apple.com/ec/album/el-ataque-de-las-chicas-cocodrilo-single/1699394152"
+  amazon: "https://music.amazon.es/albums/B0CCVM9W5R?marketplaceId=A1RKKUPIHCS9HS&musicTerritory=ES&ref=dm_sh_gtabbxmtRgzXfKiOKdjN0T6d0"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Debí Suponerlo - Versión Mariachi"
+  artist: "Morat, Camila Fernández"
+  duration: "2:40"
+  year: "2023"
+  cover:
+    - debi-suponerlo-version-mariachi.jpeg
+  youtube: "https://youtu.be/6kQtO9apnyI?si=ewu10CqdPSzASX6C"
+  spotify: "https://open.spotify.com/intl-es/track/6NyJ0XuEuryK0kpxgv0flT?si=a63e5bbe61334a2d"
+  apple_music: "https://music.apple.com/ec/album/deb%C3%AD-suponerlo-versi%C3%B3n-mariachi/1665126110?i=1665126439"
+  amazon: "https://amazon.com/music/player/albums/B0BS9NV913?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_38H6HXWwGf3vZe7ddkFuX0sHy&trackAsin=B0BS9N713P"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Sobreviviremos"
+  artist: "Mocedades, Morat"
+  duration: "3:34"
+  year: "2022"
+  cover:
+    - sobreviviremos-mocedades-cover.jpg
+  youtube: "https://www.youtube.com/watch?v=8EuZtVNSvDs"
+  spotify: "https://open.spotify.com/intl-es/track/4G9cFeirAvaF3GlxKvLdzQ?si=93e6bae53d984e8d"
+  apple_music: "https://music.apple.com/us/album/sobreviviremos/1621390045?i=1621390377"
+  amazon: "https://music.amazon.es/albums/B09Z6GK8B8?marketplaceId=A1RKKUPIHCS9HS&musicTerritory=ES&ref=dm_sh_izAoAAsRrIms97Kpr4X7YBrsi"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "_ u _ s _ _ A _ _ j _"
+  artist: "Morat"
+  duration: "0:13"
+  year: "2022"
+  cover:
+    - u-_-s-_-_-a-_-_-j-_-cover.jpeg
+  youtube: "https://www.youtube.com/watch?v=CXk-Kh3LjZA&list=OLAK5uy_mIARUpXWHVeOkhpsI-4IthRwh_deA4rq4&index=12"
+  spotify: "https://open.spotify.com/intl-es/track/33suR13zSos2s59HLb8S7y?si=6291cfda44bd4698"
+  apple_music: "https://music.apple.com/es/album/u-s-a-j/1648886517?i=1648887181"
+  amazon: "https://music.amazon.es/tracks/B0BJ34MM7Y?marketplaceId=A1RKKUPIHCS9HS&musicTerritory=ES&ref=dm_sh_PIZmCY7O4ztIRiqlcSV7bttND"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Si La Ves"
+  artist: "Morat"
+  duration: "3:48"
+  year: "2022"
+  cover:
+    - u-_-s-_-_-a-_-_-j-_-cover.jpeg
+  youtube: "https://www.youtube.com/watch?v=x1Ci-dCsc0g&list=OLAK5uy_mIARUpXWHVeOkhpsI-4IthRwh_deA4rq4&index=8"
+  spotify: "https://open.spotify.com/intl-es/track/5tEw2szqiBIEnCKMOPFnfR?si=da1cf49998cb4dc4"
+  apple_music: "https://music.apple.com/es/album/si-la-ves/1648886517?i=1648887172"
+  amazon: "https://music.amazon.es/tracks/B0BJ3PHR6X?marketplaceId=A1RKKUPIHCS9HS&musicTerritory=ES&ref=dm_sh_FX2ILlqI5eMwCLgKjptN1frgz"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Nunca Al Revés"
+  artist: "Morat"
+  duration: "3:01"
+  year: "2022"
+  cover:
+    - u-_-s-_-_-a-_-_-j-_-cover.jpeg
+  youtube: "https://www.youtube.com/watch?v=TAMl32jDzjs&list=OLAK5uy_mIARUpXWHVeOkhpsI-4IthRwh_deA4rq4&index=7"
+  spotify: "https://open.spotify.com/intl-es/track/5cyMGFUaS3Qwq4h8f3wVdu?si=30d180f32ed04e78"
+  apple_music: "https://music.apple.com/es/album/nunca-al-rev%C3%A9s/1648886517?i=1648886954"
+  amazon: "https://music.amazon.es/tracks/B0BJ2YG8JJ?marketplaceId=A1RKKUPIHCS9HS&musicTerritory=ES&ref=dm_sh_QFVHzv2ljTaEYaPbF8sxwGFYI"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Santa Fe"
+  artist: "Morat"
+  duration: "2:46"
+  year: "2022"
+  cover:
+    - u-_-s-_-_-a-_-_-j-_-cover.jpeg
+  youtube: "https://www.youtube.com/watch?v=8fn0TNGG7ZI&list=OLAK5uy_mIARUpXWHVeOkhpsI-4IthRwh_deA4rq4&index=6"
+  spotify: "https://open.spotify.com/intl-es/track/1u0nYDlrtKbSjXDsQ8e9uY?si=921029612a3f4efe"
+  apple_music: "https://music.apple.com/es/album/santa-fe/1648886517?i=1648886951"
+  amazon: "https://music.amazon.es/tracks/B0BJ33CLP1?marketplaceId=A1RKKUPIHCS9HS&musicTerritory=ES&ref=dm_sh_tNwmMWVH0okquAblzz6KyRVLa"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Debí Suponerlo"
+  artist: "Morat"
+  duration: "2:24"
+  year: "2022"
+  cover:
+    - u-_-s-_-_-a-_-_-j-_-cover.jpeg
+  youtube: "https://youtu.be/30wK3Xl64JY?si=FFTKnyEEDBBe4l9W"
+  spotify: "https://open.spotify.com/intl-es/track/2pIIRKRwWSi1Sb29VYLOOa?si=d34f0453371a46f8"
+  apple_music: "https://music.apple.com/ec/album/deb%C3%AD-suponerlo/1648886517?i=1648886773"
+  amazon: "https://amazon.com/music/player/albums/B0BJ2WH196?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_mInuptbSBX2nGRvasvSknJkGL&trackAsin=B0BJ2VVQ41"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Las Cometas Siempre Vuelan En Agosto"
+  artist: "Morat"
+  duration: "3:38"
+  year: "2022"
+  cover:
+    - las-cometas-siempre-vuelan-en-agosto.png
+  youtube: "https://youtu.be/eUjHCSq0JXA?si=ZvHHf8mJy8d6-rEs"
+  spotify: "https://open.spotify.com/intl-es/track/1pBRLNp8QSQH6Zwos9p8Jl?si=e97e788e73de4450"
+  apple_music: "https://music.apple.com/ec/album/las-cometas-siempre-vuelan-en-agosto/1648886517?i=1648887173"
+  amazon: "https://amazon.com/music/player/albums/B0B8PCV7MB?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_OEqc5D4xGWWRu3p5Tt1eP2Q7V&trackAsin=B0B8PCZPZC"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Valen Más"
+  artist: "Morat"
+  duration: "3:08"
+  year: "2022"
+  cover:
+    - valen-mas.jpg
+  youtube: "https://youtu.be/ARxl6giP1yU?si=M0FG2HkjkGvTs8oh"
+  spotify: "https://open.spotify.com/intl-es/track/1Pc05LYLZ53LYg3QPs6RJY?si=e12a08ad618740d4"
+  apple_music: "https://music.apple.com/ec/album/valen-m%C3%A1s/1634526561?i=1634526562"
+  amazon: "https://amazon.com/music/player/albums/B0B79Q5698?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_8uHHoVQ8cLMXw15H7chq0R0e9&trackAsin=B0B7B63D57"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Llamada Perdida"
+  artist: "Morat"
+  duration: "2:45"
+  year: "2022"
+  cover:
+    - llamada-perdida.jpeg
+  youtube: "https://youtu.be/4IzYE_e5POg?si=53oX8njlZL-r5QLo"
+  spotify: "https://open.spotify.com/intl-es/track/7kmCsG11JE0slfXTj66FA5?si=cdb86530b8654420"
+  apple_music: "https://music.apple.com/ec/album/llamada-perdida/1648886517?i=1648886525"
+  amazon: "https://amazon.com/music/player/albums/B09RQTR7WY?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_DTO78cfDoGnbZ5u0IXBJoSEBP&trackAsin=B09RQVDDRB"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "París"
+  artist: "Morat, Duki"
+  duration: "3:02"
+  year: "2022"
+  cover:
+    - paris.jpeg
+  youtube: "https://youtu.be/cHsKzdyXDH0?si=E6A7y_6CWOe6DOtR"
+  spotify: "https://open.spotify.com/intl-es/track/3ehHqgYRzmeUi345MfHS2N?si=31617c7df1a94e4d"
+  apple_music: "https://music.apple.com/ec/album/par%C3%ADs/1648886517?i=1648887176"
+  amazon: "https://amazon.com/music/player/albums/B0B17Q9Y2R?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_WCg6QjfQGiT4nEbEyi3SOJwup&trackAsin=B0B17HYWMX"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "506"
+  artist: "Morat, Juanes"
+  duration: "3:00"
+  year: "2022"
+  cover:
+    - 506.jpeg
+  youtube: "https://youtu.be/Hc_kwCGNhn0?si=JDgoKgrSxX0f63GM"
+  spotify: "https://open.spotify.com/intl-es/track/4Q1oBLFPK9R4eUHkNlihlF?si=38e922a8d44942a4"
+  apple_music: "https://music.apple.com/ec/album/506/1648886517?i=1648886947"
+  amazon: "https://amazon.com/music/player/albums/B0BBZLQJNF?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_0ezgtuFML0GaBIxraVWDPalCh&trackAsin=B0BBZFTQMJ"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Segundos Platos"
+  artist: "Morat"
+  duration: "3:04"
+  year: "2022"
+  cover:
+    - segundos-platos.jpeg
+  youtube: "https://youtu.be/WoSKTkaEUv4?si=JtdFrk8G4DXDCUJr"
+  spotify: "https://open.spotify.com/intl-es/track/1pHZf30WYm6CQukt7TvNPM?si=85eccfebb3e440f2"
+  apple_music: "https://music.apple.com/ec/album/segundos-platos/1648886517?i=1648886750"
+  amazon: "https://amazon.com/music/player/albums/B0BJ2WH196?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_9TzhFN911UmYvYyt8LuHBZwg4&trackAsin=B0BJ2XC9V1"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Salir Con Vida"
+  artist: "Morat, Feid"
+  duration: "2:56"
+  year: "2022"
+  cover:
+    - salir-con-vida.jpeg
+  youtube: "https://youtu.be/9a5MbvxzKgs?si=oZHhKrzfVw7NGxgg"
+  spotify: "https://open.spotify.com/intl-es/track/0cubEBmB9wjsdBwXNFmzFy?si=4f3dc23cac4b471c"
+  apple_music: "https://music.apple.com/ec/album/salir-con-vida/1648886517?i=1648886771"
+  amazon: "https://amazon.com/music/player/albums/B0BJ2WH196?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_4TyxuRiwwKapz0HX88MYufz5Z&trackAsin=B0BJ2XZG9G"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "23"
+  artist: "Morat"
+  duration: "3:07"
+  year: "2022"
+  cover:
+    - 23.jpeg
+  youtube: "https://youtu.be/P2INIp4Ic1Q?si=KFbUgd3SCoJufUjK"
+  spotify: "https://open.spotify.com/intl-es/track/03I0v50PLHMxgP5CjzCwt3?si=cf83b3428e1842e0"
+  apple_music: "https://music.apple.com/ec/album/23/1645331998?i=1645332013"
+  amazon: "https://amazon.com/music/player/albums/B0BFFW4TTL?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_OZaq9YcVVhdndeVbZqyuswpiS&trackAsin=B0BFFXKWZ7"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Lo Que Hará Mi Boca"
+  artist: "Antonio José, Morat"
+  duration: "2:54"
+  year: "2021"
+  cover:
+    - lo-que-hara-mi-boca.jpeg
+  youtube: "https://youtu.be/iAJL_H1pQaM?si=jcr_NJCMwGcUji3S"
+  spotify: "https://open.spotify.com/intl-es/track/5BR3QNDYlMVpKGgWjTWkJR?si=ac82c856c00d4e99"
+  apple_music: "https://music.apple.com/ec/album/lo-que-har%C3%A1-mi-boca/1590180379?i=1590180685"
+  amazon: "https://amazon.com/music/player/albums/B09JCPH6NJ?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_pGTlIWdrWGWTpUVNjPxAPsmrM&trackAsin=B09JCPZGXH"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Lipstick Vogue"
+  artist: "Elvis Costello & The Attractions, Morat"
+  duration: "3:32"
+  year: "2021"
+  cover:
+    - lipstick-vogue.jpeg
+  youtube: "https://youtu.be/xgkN2EmNKQM?si=r24SS06wlXWnCtn5"
+  spotify: "https://open.spotify.com/intl-es/track/4ZP4ud4S7tqeVHDJeXawPU?si=1b47ce1916a143ce"
+  apple_music: "https://music.apple.com/ec/album/lipstick-vogue/1575818583?i=1575818698"
+  amazon: "https://amazon.com/music/player/albums/B098ZY1YMW?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_GEIwAh6BeALotcg3MOLqknHxD&trackAsin=B09919M22C"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Huele A Gol"
+  artist: "Morat"
+  duration: "2:34"
+  year: "2021"
+  cover:
+    - huele-a-gol.jpeg
+  youtube: "https://youtu.be/9rA1FfQAP0c?si=LLmRraEtRpYmynnW"
+  spotify: "https://open.spotify.com/intl-es/track/7CtUcaEetl9rDYNVYLtcVn?si=a4969e0529af49ec"
+  apple_music: "https://music.apple.com/ec/album/huele-a-gol/1581032687?i=1581032705"
+  amazon: "https://amazon.com/music/player/albums/B09CKS13XV?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_hwBcDwCleZJRhT6w8k1MwCvBW&trackAsin=B09CK8ZFMJ"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Mi Pesadilla"
+  artist: "Morat, Andrés Cepeda"
+  duration: "3:25"
+  year: "2021"
+  cover:
+    - mi-pesadilla.jpeg
+  youtube: "https://youtu.be/s2OqD24ub8s?si=Ri_WuCGY4RNPh0hD"
+  spotify: "https://open.spotify.com/intl-es/track/6sFwoSaylA2xmicpVQM42E?si=d0411cbbf05c456a"
+  apple_music: "https://music.apple.com/ec/album/mi-pesadilla/1574879726?i=1574879914"
+  amazon: "https://amazon.com/music/player/albums/B098JZ7W1L?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_cWHE4a6jRZaWnBUtjHAhz75Js&trackAsin=B098K167HZ"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "En Coma"
+  artist: "Morat"
+  duration: "3:23"
+  year: "2021"
+  cover:
+    - mi-pesadilla.jpeg
+  youtube: "https://youtu.be/GOQFuZZnbLg?si=IJPDh3kjVXYrcZMZ"
+  spotify: "https://open.spotify.com/intl-es/track/7hPB9qxK37bIzhltHlD5gv?si=abab90c43e424792"
+  apple_music: "https://music.apple.com/ec/album/en-coma/1574879726?i=1574879734"
+  amazon: "https://amazon.com/music/player/albums/B098JZ7W1L?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_fZV1p1I3UMu4hbf7pyjPMgODi&trackAsin=B098K1WNQ3"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "No Termino"
+  artist: "Morat"
+  duration: "4:00"
+  year: "2021"
+  cover:
+    - mi-pesadilla.jpeg
+  youtube: "https://youtu.be/21VZl7Gs1F0?si=dw4jnuPEiKP01oiJ"
+  spotify: "https://open.spotify.com/intl-es/track/6aZxHhIMCpZAFcPx4b6YVn?si=009c366125b84554"
+  apple_music: "https://music.apple.com/ec/album/en-coma/1574879726?i=1574879734"
+  amazon: "https://amazon.com/music/player/albums/B098JZ7W1L?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_TEY5Qr6lop95nXT3xmhVs3d9H&trackAsin=B098JZ1Z5M"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Primeras Veces"
+  artist: "Morat"
+  duration: "3:12"
+  year: "2021"
+  cover:
+    - captura-de-pantalla-2024-08-26-a-la-s-08.44.56.png
+  youtube: "https://youtu.be/H4nwb_4D-Q4?si=oEj03vHKl5j1o18U"
+  spotify: "https://open.spotify.com/intl-es/track/59oiL6uvsww8qQI3BYfdfC?si=5565598f4c094b23"
+  apple_music: "https://music.apple.com/ec/album/primeras-veces/1574879726?i=1574879891"
+  amazon: "https://amazon.com/music/player/albums/B098JZ7W1L?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_DE2FdTpXsX8clIk7sIUkTl6nw&trackAsin=B098K1QDMW"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Simplemente Pasan"
+  artist: "Morat, Cami"
+  duration: "3:01"
+  year: "2021"
+  cover:
+    - captura-de-pantalla-2024-08-26-a-la-s-08.44.56.png
+  youtube: "https://youtu.be/Zrn3I_LM9xA?si=okrXPjCkWL-uibZU"
+  spotify: "https://open.spotify.com/intl-es/track/4RAJ1h4eqt2dHR6FyyiZLM?si=d623b048e4b34e0f"
+  apple_music: "https://music.apple.com/ec/album/simplemente-pasan/1574879726?i=1574879915"
+  amazon: "https://amazon.com/music/player/albums/B098JZ7W1L?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_GkW4xg4mKMLMTv7BoZiP8RxgD&trackAsin=B098JYYT3Y"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Date La Vuelta"
+  artist: "Morat"
+  duration: "3:17"
+  year: "2021"
+  cover:
+    - captura-de-pantalla-2024-08-26-a-la-s-08.44.56.png
+  youtube: "https://youtu.be/oSQZ8FJPOK4?si=RTH61uzQGjZN4yEN"
+  spotify: "https://open.spotify.com/intl-es/track/62I25P84DTn6vC37C0vRFD?si=a492dffc18bb412b"
+  apple_music: "https://music.apple.com/ec/album/date-la-vuelta/1574879726?i=1574879899"
+  amazon: "https://amazon.com/music/player/albums/B098JZ7W1L?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_uyBySXUGjX6DyzmEo2SvyWr6Y&trackAsin=B098K1Z8WR"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Al Aire"
+  artist: "Morat"
+  duration: "2:49"
+  year: "2021"
+  cover:
+    - captura-de-pantalla-2024-08-26-a-la-s-08.44.56.png
+  youtube: "https://youtu.be/5elCRX5cSxk?si=ObVDW3cabO0nXUlQ"
+  spotify: "https://open.spotify.com/intl-es/track/0eio5OdLUeo5kN4TBwejf7?si=7bf368f9efcf4c18"
+  apple_music: "https://music.apple.com/ec/album/al-aire/1574879726?i=1574879887"
+  amazon: "https://amazon.com/music/player/albums/B098JZ7W1L?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_WPAjahUu0e7V9h3ZJqHfsxwap&trackAsin=B098K1RQ7B"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "De Cero"
+  artist: "Morat"
+  duration: "3:07"
+  year: "2021"
+  cover:
+    - captura-de-pantalla-2024-08-26-a-la-s-08.44.56.png
+  youtube: "https://youtu.be/RAh5xtdIVkA?si=5sRne-5-SEwDzW1H"
+  spotify: "https://open.spotify.com/intl-es/track/0lihJzr6y9ntlWPcExsHk9?si=5b0d904d5239406d"
+  apple_music: "https://music.apple.com/ec/album/de-cero/1574879726?i=1574879889"
+  amazon: "https://amazon.com/music/player/albums/B08Y4VRSRQ?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_lQIrAZd8ZkED4XJkYmo6ldnFY&trackAsin=B08Y12Y18F"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "No Hay Más Que Hablar"
+  artist: "Morat"
+  duration: "3:31"
+  year: "2021"
+  cover:
+    - no-hay-mas-que-hablar.jpeg
+  youtube: "https://youtu.be/YbBeQiJmsrg?si=oGgu5LhwQviN-Q13"
+  spotify: "https://open.spotify.com/intl-es/track/0PrD2VArqOuweEzhnpdM89?si=c7a84d503ad34539"
+  apple_music: "https://music.apple.com/ec/album/no-hay-m%C3%A1s-que-hablar/1574879726?i=1574879893"
+  amazon: "https://amazon.com/music/player/albums/B08Y4LQ5Z7?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_LGSDEd3kXiVcUhHRUKVbpVLcx&trackAsin=B08Y12RCQ7"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Enamórate De Alguien Más"
+  artist: "Morat"
+  duration: "3:49"
+  year: "2021"
+  cover:
+    - enamorate-de-alguien-mas.jpeg
+  youtube: "https://youtu.be/s5ujpIdHpqk?si=2-muVGrgvAw6zcuT"
+  spotify: "https://open.spotify.com/intl-es/track/1pDgS6HDNrrIawdhYEvI0s?si=42985315b2f54428"
+  apple_music: "https://music.apple.com/ec/album/enam%C3%B3rate-de-alguien-m%C3%A1s/1574879726?i=1574879896"
+  amazon: "https://amazon.com/music/player/albums/B082DRPRCG?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_kiYhjyvOAIx7rtyCa8inEeAYx&trackAsin=B082DS2Q62"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Idiota"
+  artist: "Morat, Danna Paola"
+  duration: "3:03"
+  year: "2021"
+  cover:
+    - idiota.jpeg
+  youtube: "https://youtu.be/wxIU03Llxwg?si=QDQaGVLlbw0RdE3N"
+  spotify: "https://open.spotify.com/intl-es/track/0cS0bJ0oBylj3TFtz6x9pC?si=5d74b47c1ce74a39"
+  apple_music: "https://music.apple.com/ec/album/idiota/1574879726?i=1574879909"
+  amazon: "https://amazon.com/music/player/albums/B098JZ7W1L?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_ErnRdhMvg4Kc3bBzfgplikuvq&trackAsin=B098K1NY7C"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Porfa no te vayas"
+  artist: "Beret, Morat"
+  duration: "3:29"
+  year: "2021"
+  cover:
+    - porfa-no-te-vayas.jpeg
+  youtube: "https://youtu.be/zMvWTnVlYww?si=SwLqkJw3DdjuHnWw"
+  spotify: "https://open.spotify.com/intl-es/track/2XA5q5FBwqrlkGBzzOOVeK?si=ee6b11f9660943d3"
+  apple_music: "https://music.apple.com/ec/album/porfa-no-te-vayas/1562343792?i=1562343809"
+  amazon: "https://amazon.com/music/player/albums/B0923L7ZCB?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_32yS6tafGvLEQb57OoAp2Rrbz&trackAsin=B0923HGZQW"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Tabaco y Chanel - Re-Recorded"
+  artist: "Bacilos, Morat"
+  duration: "5:15"
+  year: "2021"
+  cover:
+    - tabaco-y-chanel-re-recorded.jpeg
+  youtube: "https://youtu.be/UhoUoB8Mt6Y?si=Ak5gcGbctpzHX0kE"
+  spotify: "https://open.spotify.com/intl-es/track/1PRSmiuiJ3MZquvUiaEDn2?si=458a9e0aafc44e9d"
+  apple_music: "https://music.apple.com/ec/album/tabaco-y-chanel-re-recorded/1552519157?i=1552519164"
+  amazon: "https://amazon.com/music/player/albums/B08W2HBH2L?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_PwFkQ9eUqf2cEgYWeTrwkXemM&trackAsin=B08W2HG371"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Nunca Te Olvidé"
+  artist: "Morat"
+  duration: "3:31"
+  year: "2020"
+  cover:
+    - nunca-te-olvide.jpeg
+  youtube: "https://youtu.be/917xunuQUrs?si=Yg26hWGhf2yxBt-y"
+  spotify: "https://open.spotify.com/intl-es/track/3OeYgrFYUOSyA3XOWBCaLS?si=59ab47d8f8144427"
+  apple_music: "https://music.apple.com/ec/album/date-la-vuelta/1574879726?i=1574879899"
+  amazon: "https://amazon.com/music/player/albums/B086H5B5Q5?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_qz0QaGZIbT04C5QanOVklYG04&trackAsin=B086H63VGX"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Bajo La Mesa"
+  artist: "Morat, Sebastián Yatra"
+  duration: "2:37"
+  year: "2020"
+  cover:
+    - bajo-la-mesa.jpeg
+  youtube: "https://youtu.be/hVR5KK2T8zQ?si=6Mg_9UhHS8_ICKA3"
+  spotify: "https://open.spotify.com/intl-es/track/7BEPdOI0neT6p7PnLViqmH?si=40558b7292414020"
+  apple_music: "https://music.apple.com/ec/album/bajo-la-mesa/1574879726?i=1574879911"
+  amazon: "https://amazon.com/music/player/albums/B098JZ7W1L?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_TOk07dRAIRLmfYCIo82DWg0Na&trackAsin=B098JYSZLZ"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Rockin' Around The Christmas Tree"
+  artist: "Morat"
+  duration: "2:34"
+  year: "2020"
+  cover:
+    - rockin-around-the-christmas-tree.jpeg
+  youtube: "https://youtu.be/jU8vkQNz_9c?si=KgWWrRBDyoXmbiRD"
+  spotify: "https://open.spotify.com/intl-es/track/735OBE2WvfM3QeP5knHcdn?si=f275276e19c34f81"
+  apple_music: "https://music.apple.com/ec/album/rockin-around-the-christmas-tree/1541084184?i=1541084351"
+  amazon: "https://amazon.com/music/player/albums/B08NV8C6Z9?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_K909NsEShr9Dnik2vibXsT08Y&trackAsin=B08NV6PZSX"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Dulce Navidad"
+  artist: "Morat, Danna Paola"
+  duration: "3:02"
+  year: "2020"
+  cover:
+    - dulce-navidad.jpeg
+  youtube: "https://youtu.be/v6FSAJ1Hw4c?si=RRehGvbiho_5N1Ho"
+  spotify: "https://open.spotify.com/intl-es/track/2huGNeX7jWOJnsks2FrDCg?si=4ce13929bb19455a"
+  apple_music: "https://music.apple.com/ec/album/dulce-navidad/1543495030?i=1543495035"
+  amazon: "https://amazon.com/music/player/albums/B08N2ZXHSF?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_uwaVLObIqa0vzdLUdHwTgGJji&trackAsin=B08N2PSVYF"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Labios Rotos"
+  artist: "Morat"
+  duration: "3:36"
+  year: "2020"
+  cover:
+    - labios-rotos.jpg
+  youtube: "https://youtu.be/hKhekdrklpo?si=OalSjUh2Q-WVMLWk"
+  spotify: "https://open.spotify.com/intl-es/track/0f3xJAABT92dcSH4t6oDZ0?si=e68bc87eee3d495b"
+  apple_music: "https://music.apple.com/ec/album/labios-rotos/1524888873?i=1524888874"
+  amazon: "https://amazon.com/music/player/albums/B08F1WC7MK?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_zUmJ671r45SfqUBYMm3fty8We&trackAsin=B08F1T3K7D"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
+-
+  title: "Más De Lo Que Aposté"
+  artist: "Aitana, Morat"
+  duration: "3:25"
+  year: "2020"
+  cover:
+    - mas-de-lo-que-aposte.jpg
+  youtube: "https://youtu.be/uljcF2ryvO4?si=2E9GMagUJJI4vHBG"
+  spotify: "https://open.spotify.com/intl-es/track/00QBHaaP4KUcjlmxWriMbC?si=ba9350ed852141a5"
+  apple_music: "https://music.apple.com/ec/album/m%C3%A1s-de-lo-que-apost%C3%A9/1523759253?i=1523759254"
+  amazon: "https://amazon.com/music/player/albums/B08DHD7CFS?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_DIsVjF5xJ0DOswRRMjjM148CC&trackAsin=B08DHCGWLX"
+  souncloud: ""
+  tidal: ""
+  google_play: ""
 ----
 
 Seo-title: 

@@ -1,1 +1,10 @@
 Title: Morat
+
+----
+
+Marquee:
+
+----
+
+Home_picture:
+- ya-es-manana.mp4

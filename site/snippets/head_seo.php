@@ -53,12 +53,8 @@
 <!-- KEYWORDS -->
 <?php if($site->seo_keywords()->isNotEmpty()): ?>
 <meta property="keywords" content="<?= $site->seo_keywords() ?>">
-<meta property="og:keywords" content="<?= $site->seo_keywords() ?>">
 <?php endif ?>
 
 <!-- TWITTER -->
 <meta name="twitter:card" content="summary">
 <meta property="og:url" content="<?= $page->url() ?>">
-
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3MQ860DV50"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-3MQ860DV50'); </script>

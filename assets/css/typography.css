@@ -2,30 +2,99 @@
 Import typefaces
 */
 @font-face {
-    /* font-family: Neue Montreal; */
-    /* src: url('../fonts/NeueMontreal-Regular.otf') format('otf'); */
-    /* font-style: normal; */
-	/* font-weight: 500; */
-	/* font-stretch: normal; */
+    font-family: Europa Grotesk;
+    src: url('../fonts/EuropaGroteskSH-Bol.otf');
+    font-style: normal;
+	font-weight: 500;
+	font-stretch: normal;
+}
+
+@font-face {
+    font-family: ABC Gravity;
+    src: url('../fonts/ABCGravity-Compressed-Trial.otf');
+    font-style: normal;
+	font-weight: 500;
+	font-stretch: normal;
 }
 
 
 /* 
 Typography
 */
-.t-body {
-    /* font-family: Neue Montreal-Medium;
-    font-size: 2rem;
+.t-cond {font-family: ABC Gravity; font-feature-settings: 'calt' 1, 'rlig' 1, 'rvrn' 1, 'kern' 1, 'rclt' 1, 'case' 1, 'ss16' 1;}
+.t-cond::before {content: ""; display: table;}
+.t-cond::after {content: ""; display: table;}
+
+.t-cond.t-xlarge {
+    font-size: 27vw;
+    line-height: 74%;
+    letter-spacing: -0.01em;
+    /* overflow: hidden; */
+}
+.t-cond.t-xxlarge {
+    font-size: 10vw;
+    line-height: 74%;
+    letter-spacing: -0.01em;
+    height: fit-content;
+    /* overflow: hidden; */
+}
+.t-cond.t-xlarge::before {margin-bottom: 2vw;}
+.t-cond.t-xlarge::after {margin-top: -2vw;}
+.t-cond.t-xxlarge::before {margin-bottom: calc(var(--vh) * .75);}
+.t-cond.t-xxlarge::after {margin-top: calc(var(--vh) * -1.25);}
+@media only screen and (min-width: 1024px) {
+    .t-cond.t-xlarge {font-size: 11.25vw;}
+    .t-cond.t-xlarge::before {margin-bottom: .75vw;}
+    .t-cond.t-xlarge::after {margin-top: -1.2vw;}
+}
+
+.t-cond.t-large,
+.t-cond.t-medium {
+    font-size: 5rem;
+    line-height: 78%;
+}
+@media only screen and (min-width: 1024px) {
+    .t-cond.t-large {
+        font-size: 8rem;
+        letter-spacing: -.0075em;
+    }
+}
+
+.t-cond.t-body {
+    font-size: 2.75rem;
+    line-height: 83%;
+    letter-spacing: -0.005em;
+}
+@media only screen and (min-width: 1024px) {
+    .t-cond.t-body {font-size: 4rem;}
+}
+
+.t-grot {font-family: Europa Grotesk;}
+.t-grot.t-xsmall,
+.t-grot.t-small {
+    font-size: 1.3333rem;
     line-height: 110%;
-    letter-spacing: .005em; */
+    letter-spacing: 0.05em;
+}
+@media only screen and (min-width: 1024px) {
+    .t-grot.t-xsmall {font-size: 1.2rem;}
+    .t-grot.t-small {font-size: 1.5rem;}
 }
 
 /* 
 Text Style 
 */
+.k-text a {display: inline; text-decoration: underline !important;}
+
 .t-uppercase {text-transform: uppercase;}
 .t-lowercase {text-transform: lowercase;}
 .t-left {text-align: left;}
 .t-center {text-align: center;}
-.t-right {text-align: right;}
-.t-underline {text-decoration: underline;}
+.t-right {text-align: right !important;}
+.t-underline {text-decoration: underline !important;}
+.t-through {
+    text-decoration: line-through !important;
+    -webkit-text-decoration: line-through !important;
+    text-decoration-thickness: 10px !important;
+    -webkit-text-decoration-thickness: 10px !important;
+}

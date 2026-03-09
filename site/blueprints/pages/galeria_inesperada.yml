@@ -1,0 +1,63 @@
+title: Galeria Inesperada
+icon: 📸
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      tour:
+        type: fields
+        fields:
+          tour:
+            label: Tour Dates
+            type: structure
+            columns:
+              city:
+                width: 1/6
+              country:
+                width: 1/6
+              date:
+                width: 1/6
+              venue:
+                width: 1/6
+              tickets:
+                width: 1/6
+              sold_out:
+                width: 1/6
+            fields:
+              city:
+                label: City
+                type: text
+              country:
+                label: Country
+                type: text
+              date:
+                label: Date
+                type: text
+              venue:
+                label: Venue
+                type: text
+              tickets:
+                label: Tickets URL
+                type: url
+              sold_out:
+                label: Sold Out
+                type: toggle
+                default: false
+
+  sidebar:
+    width: 1/3
+    sections:
+      seo:
+        type: fields
+        fields:
+          seo_title:
+            label: SEO Title
+            type: text
+          seo_description:
+            label: SEO Description
+            type: text
+          seo_picture:
+            label: SEO Picture
+            type: files
+            max: 1
